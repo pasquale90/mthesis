@@ -1,0 +1,76 @@
+44100
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+['air_conditioner', 'car_horn', 'children_playing', 'dog_bark', 'drilling', 'engine_idling', 'gun_shot', 'jackhammer', 'siren', 'street_music']
+loadin mel-spectograms..
+features are loaded
+cpu
+model initialized...
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.9477539247750029
+
+Epoch - 1 Valid-Loss : 3.2847152550378045
+micro_f1_1 = 0.15053763440860216 
+macro_f1_1 = 0.018056404123372834 
+
+Epoch - 2 Train-Loss : 1.731561120603283
+
+Epoch - 2 Valid-Loss : 4.192235759739069
+micro_f1_2 = 0.14575866188769415 
+macro_f1_2 = 0.01772624011336202 
+Overfitting detected
+
+Epoch - 3 Train-Loss : 1.5533562049116323
+
+Epoch - 3 Valid-Loss : 5.1045769620330645
+micro_f1_3 = 0.16009557945041816 
+macro_f1_3 = 0.02055716626945622 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate reduced..
+
+Epoch - 4 Train-Loss : 1.6032882666822814
+
+Epoch - 4 Valid-Loss : 5.092858771717875
+micro_f1_4 = 0.24850657108721624 
+macro_f1_4 = 0.03825818968171756 
+
+Epoch - 5 Train-Loss : 1.5141332992053507
+
+Epoch - 5 Valid-Loss : 5.151178587125275
+micro_f1_5 = 0.24133811230585428 
+macro_f1_5 = 0.03906183738393225 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate re-reduced..
+
+Epoch - 6 Train-Loss : 1.488640506843965
+
+Epoch - 6 Valid-Loss : 5.267586617266391
+micro_f1_6 = 0.23775388291517324 
+macro_f1_6 = 0.038758002753442246 
+Overfitting detected
+training is terminating so as to prevent further overfitting
+                        10
+validation_fold:          
+micro_f1          0.237793
+macro_f1          0.038757
+Experiment's attempt changed to : 2

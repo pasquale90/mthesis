@@ -1,0 +1,70 @@
+22050
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+['air_conditioner', 'car_horn', 'children_playing', 'dog_bark', 'drilling', 'engine_idling', 'gun_shot', 'jackhammer', 'siren', 'street_music']
+loadin mel-spectograms..
+features are loaded
+cpu
+model initialized...
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.9608373839552076
+
+Epoch - 1 Valid-Loss : 3.2957927406350227
+micro_f1_1 = 0.14336917562724014 
+macro_f1_1 = 0.018014182436081265 
+
+Epoch - 2 Train-Loss : 1.7503933314484101
+
+Epoch - 2 Valid-Loss : 4.281621579744029
+micro_f1_2 = 0.13620071684587814 
+macro_f1_2 = 0.017785179331775886 
+Overfitting detected
+
+Epoch - 3 Train-Loss : 1.5740138684276155
+
+Epoch - 3 Valid-Loss : 4.914582364725951
+micro_f1_3 = 0.15173237753882915 
+macro_f1_3 = 0.02126004110728795 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate reduced..
+
+Epoch - 4 Train-Loss : 1.615140035453101
+
+Epoch - 4 Valid-Loss : 4.992039129404567
+micro_f1_4 = 0.2090800477897252 
+macro_f1_4 = 0.03663415026014444 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate re-reduced..
+
+Epoch - 5 Train-Loss : 1.5311383079635976
+
+Epoch - 5 Valid-Loss : 5.09478928281661
+micro_f1_5 = 0.21385902031063322 
+macro_f1_5 = 0.03869626909945965 
+Overfitting detected
+training is terminating so as to prevent further overfitting
+                        10
+validation_fold:          
+micro_f1          0.213867
+macro_f1          0.038696
+Experiment's attempt changed to : 2
