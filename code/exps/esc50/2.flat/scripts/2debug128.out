@@ -1,0 +1,18 @@
+128
+(2000, 7)
+audio_files length:2000
+loadin mel-spectograms..
+features are loaded
+cpu
+model initialized...
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 4.107419557571411
+
+Epoch - 1 Valid-Loss : 3.9199803256988526
+micro_f1_1 = 0.025000000000000005 
+macro_f1_1 = 0.0020145707950586 
+params = 2984754
+params2 =  2984754
+Experiment's attempt changed to : 2

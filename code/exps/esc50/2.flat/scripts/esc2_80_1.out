@@ -1,0 +1,183 @@
+80
+(2000, 7)
+audio_files length:2000
+loadin mel-spectograms..
+features are loaded
+cpu
+model initialized...
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 3.920249857902527
+
+Epoch - 1 Valid-Loss : 3.866599416732788
+micro_f1_1 = 0.0225 
+macro_f1_1 = 0.009240383166316245 
+
+Epoch - 2 Train-Loss : 3.767640368938446
+
+Epoch - 2 Valid-Loss : 3.789965295791626
+micro_f1_2 = 0.0475 
+macro_f1_2 = 0.020290046870692035 
+
+Epoch - 3 Train-Loss : 3.6332251763343812
+
+Epoch - 3 Valid-Loss : 3.7458386993408204
+micro_f1_3 = 0.05249999999999999 
+macro_f1_3 = 0.023214643673846708 
+
+Epoch - 4 Train-Loss : 3.5160689830780028
+
+Epoch - 4 Valid-Loss : 3.711060791015625
+micro_f1_4 = 0.065 
+macro_f1_4 = 0.032566194069856544 
+
+Epoch - 5 Train-Loss : 3.4276443195343016
+
+Epoch - 5 Valid-Loss : 3.606200113296509
+micro_f1_5 = 0.08 
+macro_f1_5 = 0.043415816899150236 
+
+Epoch - 6 Train-Loss : 3.322156186103821
+
+Epoch - 6 Valid-Loss : 3.5920249366760255
+micro_f1_6 = 0.09 
+macro_f1_6 = 0.04540909670760417 
+
+Epoch - 7 Train-Loss : 3.231714143753052
+
+Epoch - 7 Valid-Loss : 3.526877689361572
+micro_f1_7 = 0.11 
+macro_f1_7 = 0.05698356171269944 
+
+Epoch - 8 Train-Loss : 3.174145393371582
+
+Epoch - 8 Valid-Loss : 3.482211866378784
+micro_f1_8 = 0.12 
+macro_f1_8 = 0.06992322389883462 
+
+Epoch - 9 Train-Loss : 3.0949684166908265
+
+Epoch - 9 Valid-Loss : 3.4092041492462157
+micro_f1_9 = 0.145 
+macro_f1_9 = 0.07538448307833938 
+
+Epoch - 10 Train-Loss : 3.025714945793152
+
+Epoch - 10 Valid-Loss : 3.390843086242676
+micro_f1_10 = 0.155 
+macro_f1_10 = 0.09068502518378242 
+
+Epoch - 11 Train-Loss : 2.934249520301819
+
+Epoch - 11 Valid-Loss : 3.3343769454956056
+micro_f1_11 = 0.1425 
+macro_f1_11 = 0.08787993859530861 
+
+Epoch - 12 Train-Loss : 2.8535465002059937
+
+Epoch - 12 Valid-Loss : 3.3272807693481443
+micro_f1_12 = 0.1475 
+macro_f1_12 = 0.09512703481096847 
+
+Epoch - 13 Train-Loss : 2.801676251888275
+
+Epoch - 13 Valid-Loss : 3.243553295135498
+micro_f1_13 = 0.175 
+macro_f1_13 = 0.10865811041683995 
+
+Epoch - 14 Train-Loss : 2.733038501739502
+
+Epoch - 14 Valid-Loss : 3.2061961555480956
+micro_f1_14 = 0.17750000000000002 
+macro_f1_14 = 0.11727688680439964 
+
+Epoch - 15 Train-Loss : 2.6750271344184875
+
+Epoch - 15 Valid-Loss : 3.1229136180877686
+micro_f1_15 = 0.2075 
+macro_f1_15 = 0.13966464142570265 
+
+Epoch - 16 Train-Loss : 2.628316116333008
+
+Epoch - 16 Valid-Loss : 3.0895158863067627
+micro_f1_16 = 0.22 
+macro_f1_16 = 0.15680967762938647 
+
+Epoch - 17 Train-Loss : 2.560309200286865
+
+Epoch - 17 Valid-Loss : 3.040044708251953
+micro_f1_17 = 0.21499999999999997 
+macro_f1_17 = 0.14537294681655583 
+
+Epoch - 18 Train-Loss : 2.482632761001587
+
+Epoch - 18 Valid-Loss : 3.024069223403931
+micro_f1_18 = 0.225 
+macro_f1_18 = 0.16315166684578447 
+
+Epoch - 19 Train-Loss : 2.416396613121033
+
+Epoch - 19 Valid-Loss : 2.9687468147277833
+micro_f1_19 = 0.22 
+macro_f1_19 = 0.1689376724625615 
+
+Epoch - 20 Train-Loss : 2.3759919238090514
+
+Epoch - 20 Valid-Loss : 2.858588933944702
+micro_f1_20 = 0.2475 
+macro_f1_20 = 0.197408822347552 
+
+Epoch - 21 Train-Loss : 2.304374089241028
+
+Epoch - 21 Valid-Loss : 2.8810590267181397
+micro_f1_21 = 0.235 
+macro_f1_21 = 0.17870905461927133 
+Overfitting detected
+
+Epoch - 22 Train-Loss : 2.2784918642044065
+
+Epoch - 22 Valid-Loss : 2.8482312965393066
+micro_f1_22 = 0.23 
+macro_f1_22 = 0.1791015923675065 
+
+Epoch - 23 Train-Loss : 2.2236429727077485
+
+Epoch - 23 Valid-Loss : 2.862209663391113
+micro_f1_23 = 0.25 
+macro_f1_23 = 0.20171876936801886 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate reduced..
+
+Epoch - 24 Train-Loss : 2.1735804688930513
+
+Epoch - 24 Valid-Loss : 2.7587621307373045
+micro_f1_24 = 0.2775 
+macro_f1_24 = 0.22460385046359263 
+
+Epoch - 25 Train-Loss : 2.1451256000995635
+
+Epoch - 25 Valid-Loss : 2.771965198516846
+micro_f1_25 = 0.275 
+macro_f1_25 = 0.22979712196987737 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate re-reduced..
+
+Epoch - 26 Train-Loss : 2.1358396887779234
+
+Epoch - 26 Valid-Loss : 2.770004301071167
+micro_f1_26 = 0.27 
+macro_f1_26 = 0.21675824517527303 
+
+Epoch - 27 Train-Loss : 2.144958716630936
+
+Epoch - 27 Valid-Loss : 2.781910943984985
+micro_f1_27 = 0.2625 
+macro_f1_27 = 0.21743106744837384 
+Overfitting detected
+training is terminating so as to prevent further overfitting
+params = 2984754
+params2 =  2984754
+Experiment's attempt changed to : 2
