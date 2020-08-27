@@ -1,0 +1,49 @@
+80
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+['air_conditioner', 'car_horn', 'children_playing', 'dog_bark', 'drilling', 'engine_idling', 'gun_shot', 'jackhammer', 'siren', 'street_music']
+loadin mel-spectograms..
+features are loaded
+cpu
+model initialized...
+attempt is already initialized
+Experiment's _80 attempt no_ : 1
+Train started..
+Traceback (most recent call last):
+  File "/mnt/scratch_a/users/m/melissap/code/exps/us8k/2.flat/main.py", line 99, in <module>
+    train.train(model, loss_fn, train_loader, valid_loader, 
+  File "/mnt/scratch_a/users/m/melissap/code/exps/us8k/2.flat/train.py", line 58, in train
+    y_hat = model(x) 
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/scratch_a/users/m/melissap/code/exps/us8k/2.flat/models.py", line 84, in forward
+    x = self.conv7(x)
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/nn/modules/container.py", line 100, in forward
+    input = module(input)
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 550, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/nn/modules/batchnorm.py", line 103, in forward
+    return F.batch_norm(
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/nn/functional.py", line 1919, in batch_norm
+    _verify_batch_size(input.size())
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/nn/functional.py", line 1902, in _verify_batch_size
+    raise ValueError('Expected more than 1 value per channel when training, got input size {}'.format(size))
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 512, 1])
