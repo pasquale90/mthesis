@@ -1,0 +1,316 @@
+80
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+['air_conditioner', 'car_horn', 'children_playing', 'dog_bark', 'drilling', 'engine_idling', 'gun_shot', 'jackhammer', 'siren', 'street_music']
+loadin mel-spectograms..
+image_0 80
+image_1 28
+image_0 80
+image_1 39
+image_0 80
+image_1 38
+image_0 80
+image_1 24
+image_0 80
+image_1 36
+image_0 80
+image_1 20
+image_0 80
+image_1 36
+image_0 80
+image_1 22
+image_0 80
+image_1 17
+image_0 80
+image_1 25
+image_0 80
+image_1 32
+image_0 80
+image_1 32
+image_0 80
+image_1 39
+image_0 80
+image_1 31
+image_0 80
+image_1 23
+image_0 80
+image_1 31
+image_0 80
+image_1 33
+image_0 80
+image_1 39
+image_0 80
+image_1 13
+image_0 80
+image_1 14
+image_0 80
+image_1 9
+image_0 80
+image_1 10
+image_0 80
+image_1 9
+image_0 80
+image_1 14
+image_0 80
+image_1 15
+image_0 80
+image_1 22
+image_0 80
+image_1 30
+image_0 80
+image_1 25
+image_0 80
+image_1 25
+image_0 80
+image_1 26
+image_0 80
+image_1 26
+image_0 80
+image_1 27
+image_0 80
+image_1 12
+image_0 80
+image_1 11
+image_0 80
+image_1 17
+image_0 80
+image_1 38
+image_0 80
+image_1 38
+image_0 80
+image_1 38
+image_0 80
+image_1 32
+image_0 80
+image_1 27
+image_0 80
+image_1 39
+image_0 80
+image_1 38
+image_0 80
+image_1 10
+image_0 80
+image_1 37
+image_0 80
+image_1 34
+image_0 80
+image_1 21
+image_0 80
+image_1 19
+image_0 80
+image_1 9
+image_0 80
+image_1 26
+image_0 80
+image_1 6
+image_0 80
+image_1 25
+image_0 80
+image_1 24
+image_0 80
+image_1 26
+image_0 80
+image_1 23
+image_0 80
+image_1 33
+image_0 80
+image_1 30
+image_0 80
+image_1 33
+image_0 80
+image_1 19
+image_0 80
+image_1 25
+image_0 80
+image_1 22
+image_0 80
+image_1 31
+image_0 80
+image_1 38
+image_0 80
+image_1 18
+image_0 80
+image_1 21
+image_0 80
+image_1 19
+image_0 80
+image_1 28
+image_0 80
+image_1 38
+image_0 80
+image_1 32
+image_0 80
+image_1 27
+image_0 80
+image_1 39
+image_0 80
+image_1 24
+image_0 80
+image_1 28
+image_0 80
+image_1 23
+image_0 80
+image_1 25
+image_0 80
+image_1 22
+image_0 80
+image_1 29
+image_0 80
+image_1 31
+image_0 80
+image_1 34
+image_0 80
+image_1 19
+image_0 80
+image_1 30
+image_0 80
+image_1 23
+image_0 80
+image_1 22
+image_0 80
+image_1 25
+image_0 80
+image_1 31
+image_0 80
+image_1 16
+image_0 80
+image_1 34
+image_0 80
+image_1 37
+image_0 80
+image_1 16
+image_0 80
+image_1 18
+image_0 80
+image_1 21
+image_0 80
+image_1 16
+image_0 80
+image_1 25
+image_0 80
+image_1 23
+image_0 80
+image_1 31
+image_0 80
+image_1 37
+image_0 80
+image_1 30
+image_0 80
+image_1 24
+image_0 80
+image_1 38
+image_0 80
+image_1 19
+image_0 80
+image_1 20
+image_0 80
+image_1 30
+image_0 80
+image_1 28
+image_0 80
+image_1 24
+image_0 80
+image_1 32
+image_0 80
+image_1 36
+image_0 80
+image_1 37
+image_0 80
+image_1 35
+image_0 80
+image_1 31
+image_0 80
+image_1 38
+image_0 80
+image_1 39
+image_0 80
+image_1 28
+image_0 80
+image_1 18
+image_0 80
+image_1 32
+image_0 80
+image_1 36
+image_0 80
+image_1 36
+image_0 80
+image_1 17
+image_0 80
+image_1 16
+image_0 80
+image_1 15
+image_0 80
+image_1 25
+image_0 80
+image_1 13
+image_0 80
+image_1 5
+image_0 80
+image_1 5
+image_0 80
+image_1 6
+image_0 80
+image_1 6
+image_0 80
+image_1 10
+image_0 80
+image_1 32
+image_0 80
+image_1 36
+image_0 80
+image_1 31
+image_0 80
+image_1 31
+image_0 80
+image_1 34
+image_0 80
+image_1 32
+image_0 80
+image_1 35
+image_0 80
+image_1 34
+image_0 80
+image_1 38
+image_0 80
+image_1 33
+image_0 80
+image_1 39
+image_0 80
+image_1 21
+image_0 80
+image_1 38
+image_0 80
+image_1 22
+features are loaded
+cpu
+model initialized...
+attempt is already initialized
+Experiment's _80 attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.253273297379447
+
+Epoch - 1 Valid-Loss : 2.35584398236553
+micro_f1_1 = 0.2831541218637993 
+macro_f1_1 = 0.1959109532136989 
+                        11
+validation_fold:          
+micro_f1          0.283203
+macro_f1          0.195923
+Experiment's attempt changed to : 2

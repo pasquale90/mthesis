@@ -1,0 +1,87 @@
+80
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+['air_conditioner', 'car_horn', 'children_playing', 'dog_bark', 'drilling', 'engine_idling', 'gun_shot', 'jackhammer', 'siren', 'street_music']
+loadin mel-spectograms..
+features are loaded
+cpu
+model initialized...
+attempt is already initialized
+Experiment's _80 attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.2755033209716884
+
+Epoch - 1 Valid-Loss : 2.1539717585008633
+micro_f1_1 = 0.23655913978494625 
+macro_f1_1 = 0.17895349231137087 
+
+Epoch - 2 Train-Loss : 0.8695050269542518
+
+Epoch - 2 Valid-Loss : 1.9926790550190916
+micro_f1_2 = 0.34767025089605735 
+macro_f1_2 = 0.325188130554554 
+
+Epoch - 3 Train-Loss : 0.6669127667363917
+
+Epoch - 3 Valid-Loss : 1.9502595085561667
+micro_f1_3 = 0.3679808841099164 
+macro_f1_3 = 0.3527426456352879 
+
+Epoch - 4 Train-Loss : 0.5163766861811704
+
+Epoch - 4 Valid-Loss : 1.9576937112380866
+micro_f1_4 = 0.3835125448028674 
+macro_f1_4 = 0.36755572909031853 
+Overfitting detected
+
+Epoch - 5 Train-Loss : 0.39511175632348433
+
+Epoch - 5 Valid-Loss : 1.9662605045845103
+micro_f1_5 = 0.39426523297491034 
+macro_f1_5 = 0.38756452014545234 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate reduced..
+
+Epoch - 6 Train-Loss : 0.5501292685029584
+
+Epoch - 6 Valid-Loss : 1.9751334678182058
+micro_f1_6 = 0.42891278375149344 
+macro_f1_6 = 0.44581826004134417 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate re-reduced..
+
+Epoch - 7 Train-Loss : 0.4267966809760873
+
+Epoch - 7 Valid-Loss : 1.9697411998239134
+micro_f1_7 = 0.43130227001194743 
+macro_f1_7 = 0.4498872116673134 
+
+Epoch - 8 Train-Loss : 0.3769578993058971
+
+Epoch - 8 Valid-Loss : 1.972900576911021
+micro_f1_8 = 0.43608124253285546 
+macro_f1_8 = 0.45649610596456747 
+Overfitting detected
+training is terminating so as to prevent further overfitting
+(2, 2)
+2
+Experiment's attempt changed to : 3
