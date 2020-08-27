@@ -1,0 +1,131 @@
+/mnt/scratch_a/users/m/melissap/code/exps/esc50/1.raw/models.py:363: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  x = self.activation(x)
+44100
+(2000, 7)
+audio_files length:2000
+loadin waveforms..
+features are loaded
+cpu
+model initialized...
+attempt is already initialized
+Experiment's _44100 attempt no_ : 7
+Train started..
+
+Epoch - 1 Train-Loss : 3.9107443952560423
+
+Epoch - 1 Valid-Loss : 3.9048500061035156
+micro_f1_1 = 0.035 
+macro_f1_1 = 0.004527321016743125 
+
+Epoch - 2 Train-Loss : 3.8994496130943297
+
+Epoch - 2 Valid-Loss : 3.8997265529632568
+micro_f1_2 = 0.0325 
+macro_f1_2 = 0.016111198383359605 
+
+Epoch - 3 Train-Loss : 3.886499402523041
+
+Epoch - 3 Valid-Loss : 3.891559133529663
+micro_f1_3 = 0.065 
+macro_f1_3 = 0.029171219621000156 
+
+Epoch - 4 Train-Loss : 3.8810752391815186
+
+Epoch - 4 Valid-Loss : 3.8853397274017336
+micro_f1_4 = 0.07 
+macro_f1_4 = 0.02862675150936021 
+
+Epoch - 5 Train-Loss : 3.87428991317749
+
+Epoch - 5 Valid-Loss : 3.880369291305542
+micro_f1_5 = 0.07 
+macro_f1_5 = 0.027518553440862292 
+
+Epoch - 6 Train-Loss : 3.8679455494880677
+
+Epoch - 6 Valid-Loss : 3.87934739112854
+micro_f1_6 = 0.08 
+macro_f1_6 = 0.029913910223504047 
+
+Epoch - 7 Train-Loss : 3.8622222995758055
+
+Epoch - 7 Valid-Loss : 3.8748164272308347
+micro_f1_7 = 0.08 
+macro_f1_7 = 0.03347242388800554 
+
+Epoch - 8 Train-Loss : 3.857110939025879
+
+Epoch - 8 Valid-Loss : 3.87521710395813
+micro_f1_8 = 0.0825 
+macro_f1_8 = 0.030513426430934035 
+Overfitting detected
+
+Epoch - 9 Train-Loss : 3.854763460159302
+
+Epoch - 9 Valid-Loss : 3.873481492996216
+micro_f1_9 = 0.095 
+macro_f1_9 = 0.041242920545147485 
+
+Epoch - 10 Train-Loss : 3.848253839015961
+
+Epoch - 10 Valid-Loss : 3.861752758026123
+micro_f1_10 = 0.095 
+macro_f1_10 = 0.03960003955166494 
+
+Epoch - 11 Train-Loss : 3.841525413990021
+
+Epoch - 11 Valid-Loss : 3.8617329025268554
+micro_f1_11 = 0.11 
+macro_f1_11 = 0.051330824774556305 
+
+Epoch - 12 Train-Loss : 3.8333101153373716
+
+Epoch - 12 Valid-Loss : 3.8600337982177733
+micro_f1_12 = 0.115 
+macro_f1_12 = 0.05250126117549235 
+
+Epoch - 13 Train-Loss : 3.8242082929611207
+
+Epoch - 13 Valid-Loss : 3.856208963394165
+micro_f1_13 = 0.1175 
+macro_f1_13 = 0.054422159258486674 
+
+Epoch - 14 Train-Loss : 3.8229164242744447
+
+Epoch - 14 Valid-Loss : 3.856304941177368
+micro_f1_14 = 0.1125 
+macro_f1_14 = 0.05167987273110612 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate reduced..
+
+Epoch - 15 Train-Loss : 3.817090239524841
+
+Epoch - 15 Valid-Loss : 3.857411470413208
+micro_f1_15 = 0.1175 
+macro_f1_15 = 0.05644657372211552 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate re-reduced..
+
+Epoch - 16 Train-Loss : 3.8208281636238097
+
+Epoch - 16 Valid-Loss : 3.8524786186218263
+micro_f1_16 = 0.115 
+macro_f1_16 = 0.0537207733807619 
+
+Epoch - 17 Train-Loss : 3.82020103931427
+
+Epoch - 17 Valid-Loss : 3.8497775173187256
+micro_f1_17 = 0.1125 
+macro_f1_17 = 0.05248836408323207 
+
+Epoch - 18 Train-Loss : 3.8211700415611265
+
+Epoch - 18 Valid-Loss : 3.8506421756744387
+micro_f1_18 = 0.1125 
+macro_f1_18 = 0.05170475964442016 
+Overfitting detected
+training is terminating so as to prevent further overfitting
+params = 555138
+Experiment's attempt changed to : 8
