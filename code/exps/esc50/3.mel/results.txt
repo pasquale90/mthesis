@@ -1,0 +1,85 @@
+#128 nmels - not saved model ,no auroc
+cpu
+model initialized...
+(2000, 7)
+2000
+loadin spectograms..
+features are loaded
+train started...
+
+Epoch - 1 Train-Loss : 3.682225956916809
+
+Epoch - 1 Valid-Loss : 3.1298537349700926 Valid-Accuracy : 0.2025
+micro_f1_1 = 0.15152813714520794
+
+Epoch - 2 Train-Loss : 2.880309281349182
+
+Epoch - 2 Valid-Loss : 2.72139666557312 Valid-Accuracy : 0.3025
+micro_f1_2 = 0.270284216872008
+
+Epoch - 3 Train-Loss : 2.168284628391266
+
+Epoch - 3 Valid-Loss : 2.292399425506592 Valid-Accuracy : 0.43
+micro_f1_3 = 0.40559340120103343
+
+Epoch - 4 Train-Loss : 1.6722504901885986
+
+Epoch - 4 Valid-Loss : 2.1145027112960815 Valid-Accuracy : 0.4475
+micro_f1_4 = 0.423199272898721
+
+Epoch - 5 Train-Loss : 1.2127012312412262
+
+Epoch - 5 Valid-Loss : 1.966286268234253 Valid-Accuracy : 0.4825
+micro_f1_5 = 0.4694094772519324
+
+Epoch - 6 Train-Loss : 0.8916039082407952
+
+Epoch - 6 Valid-Loss : 1.8934511184692382 Valid-Accuracy : 0.515
+micro_f1_6 = 0.49812496633502157
+
+Epoch - 7 Train-Loss : 0.6464511170983315
+
+Epoch - 7 Valid-Loss : 1.7978803539276123 Valid-Accuracy : 0.5275
+micro_f1_7 = 0.5162964371295238
+
+Epoch - 8 Train-Loss : 0.5022702224552631
+
+Epoch - 8 Valid-Loss : 1.7212798357009889 Valid-Accuracy : 0.54
+micro_f1_8 = 0.5202017586697848
+
+Epoch - 9 Train-Loss : 0.3717499658465385
+
+Epoch - 9 Valid-Loss : 1.7204450750350953 Valid-Accuracy : 0.54
+micro_f1_9 = 0.5271384907146517
+Changed learning rate to 2.0000000000000003e-06
+
+Epoch - 10 Train-Loss : 0.284236576333642
+
+Epoch - 10 Valid-Loss : 1.649318871498108 Valid-Accuracy : 0.5525
+micro_f1_10 = 0.5345043125089566
+
+Epoch - 11 Train-Loss : 0.23693222425878047
+
+Epoch - 11 Valid-Loss : 1.6419014096260072 Valid-Accuracy : 0.5525
+micro_f1_11 = 0.5304308840454351
+
+Epoch - 12 Train-Loss : 0.2023615422844887
+
+Epoch - 12 Valid-Loss : 1.623488154411316 Valid-Accuracy : 0.5575
+micro_f1_12 = 0.5343430231619086
+
+Epoch - 13 Train-Loss : 0.20262066174298524
+
+Epoch - 13 Valid-Loss : 1.619059443473816 Valid-Accuracy : 0.56
+micro_f1_13 = 0.5391645583862302
+
+Epoch - 14 Train-Loss : 0.1906934105604887
+
+Epoch - 14 Valid-Loss : 1.6140846872329713 Valid-Accuracy : 0.5625
+micro_f1_14 = 0.5416203084840856
+
+Epoch - 15 Train-Loss : 0.2092541065812111
+
+Epoch - 15 Valid-Loss : 1.5962213039398194 Valid-Accuracy : 0.5575
+micro_f1_15 = 0.534843918521466
+
