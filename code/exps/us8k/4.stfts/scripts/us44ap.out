@@ -1,0 +1,93 @@
+exp8
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+loadin stft-spectograms..
+features are loaded
+cpu
+model initialized...
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.676701175251406
+
+Epoch - 1 Valid-Loss : 2.3566814743209377
+micro_f1_1 = 0.16845878136200718 
+macro_f1_1 = 0.019846346862420237 
+
+Epoch - 2 Train-Loss : 1.3937169673727434
+
+Epoch - 2 Valid-Loss : 2.17946344044331
+micro_f1_2 = 0.2915173237753883 
+macro_f1_2 = 0.04320819588546916 
+
+Epoch - 3 Train-Loss : 1.1717557995518317
+
+Epoch - 3 Valid-Loss : 2.1142980364811126
+micro_f1_3 = 0.31899641577060933 
+macro_f1_3 = 0.04465733599816344 
+
+Epoch - 4 Train-Loss : 1.0080320543024148
+
+Epoch - 4 Valid-Loss : 2.2535454765538847
+micro_f1_4 = 0.32974910394265233 
+macro_f1_4 = 0.04788552035988162 
+Overfitting detected
+
+Epoch - 5 Train-Loss : 0.8722819628277121
+
+Epoch - 5 Valid-Loss : 2.2158323767756474
+micro_f1_5 = 0.35603345280764637 
+macro_f1_5 = 0.05543623751902741 
+
+Epoch - 6 Train-Loss : 0.7709988506554236
+
+Epoch - 6 Valid-Loss : 2.204232377150827
+micro_f1_6 = 0.3859020310633214 
+macro_f1_6 = 0.06247487189563801 
+
+Epoch - 7 Train-Loss : 0.6780481342992024
+
+Epoch - 7 Valid-Loss : 2.3880827582120703
+micro_f1_7 = 0.4002389486260454 
+macro_f1_7 = 0.06572681465879736 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate reduced..
+
+Epoch - 8 Train-Loss : 0.8465412836403018
+
+Epoch - 8 Valid-Loss : 2.394984317944346
+micro_f1_8 = 0.4540023894862604 
+macro_f1_8 = 0.07789030218231698 
+Overfitting detected
+Changed learning rate to 1.0000000000000002e-06
+learning rate re-reduced..
+
+Epoch - 9 Train-Loss : 0.7379687493041661
+
+Epoch - 9 Valid-Loss : 2.4977255906909814
+micro_f1_9 = 0.44802867383512546 
+macro_f1_9 = 0.07759450578386876 
+Overfitting detected
+training is terminating so as to prevent further overfitting
+                        10
+validation_fold:          
+micro_f1          0.447998
+macro_f1          0.077576
+Experiment's attempt changed to : 2
