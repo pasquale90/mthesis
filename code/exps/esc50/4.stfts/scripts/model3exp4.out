@@ -1,0 +1,22 @@
+exp4
+(2000, 7)
+audio_files length:2000
+loadin stft-spectograms..
+features are loaded
+cpu
+model initialized...
+attempt is already initialized
+Experiment's _exp4 attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 3.906153106689453
+
+Epoch - 1 Valid-Loss : 3.913466386795044
+micro_f1_1 = 0.0175 
+macro_f1_1 = 0.00485744317435291 
+                         5
+validation_fold:          
+micro_f1          0.017502
+macro_f1          0.004856
+params                 inf
+Experiment's attempt changed to : 2

@@ -1,0 +1,21 @@
+exp8
+(2000, 7)
+audio_files length:2000
+loadin stft-spectograms..
+features are loaded
+cpu
+model initialized...
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 3.905474808216095
+
+Epoch - 1 Valid-Loss : 3.8521368861198426
+micro_f1_1 = 0.0575 
+macro_f1_1 = 0.031768192591722005 
+                         6
+validation_fold:          
+micro_f1          0.057495
+macro_f1          0.031769
+params                 inf
+Experiment's attempt changed to : 2

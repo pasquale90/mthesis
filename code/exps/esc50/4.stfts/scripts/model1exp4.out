@@ -1,0 +1,1 @@
+/var/spool/slurmd/job699677/slurm_script: line 15: 19935 Killed                  python $HOME/code/exps/esc50/4.stfts/main.py

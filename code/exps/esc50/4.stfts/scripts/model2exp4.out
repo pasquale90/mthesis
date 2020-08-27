@@ -1,0 +1,44 @@
+exp4
+(2000, 7)
+audio_files length:2000
+loadin stft-spectograms..
+features are loaded
+cpu
+model initialized...
+attempt is already initialized
+Experiment's _exp4 attempt no_ : 1
+Train started..
+Traceback (most recent call last):
+  File "/mnt/scratch_a/users/m/melissap/code/exps/esc50/4.stfts/main.py", line 85, in <module>
+    train.train(model, loss_fn, train_loader, valid_loader, 
+  File "/mnt/scratch_a/users/m/melissap/code/exps/esc50/4.stfts/train.py", line 59, in train
+    loss.backward()
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/tensor.py", line 198, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/autograd/__init__.py", line 98, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 7012352000 bytes. Error code 12 (Cannot allocate memory)
+frame #0: c10::ThrowEnforceNotMet(char const*, int, char const*, std::string const&, void const*) + 0x47 (0x7fd28c69c957 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libc10.so)
+frame #1: c10::alloc_cpu(unsigned long) + 0x1ba (0x7fd28c681e4a in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libc10.so)
+frame #2: <unknown function> + 0x1821a (0x7fd28c68421a in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libc10.so)
+frame #3: THStorage_resize + 0x3b (0x7fd2b83b6c8b in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: at::native::resize_(at::Tensor&, c10::ArrayRef<long>, c10::optional<c10::MemoryFormat>) + 0x4ab (0x7fd2b7fa934b in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0xb1cbe3 (0x7fd2b7fa9be3 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: at::native::mm_cpu_out(at::Tensor&, at::Tensor const&, at::Tensor const&) + 0x27b (0x7fd2b7d662fb in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: at::native::mm_cpu(at::Tensor const&, at::Tensor const&) + 0x177 (0x7fd2b7d67907 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #8: <unknown function> + 0xdde3c8 (0x7fd2b826b3c8 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #9: <unknown function> + 0xe224d0 (0x7fd2b82af4d0 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #10: <unknown function> + 0x29f9d0e (0x7fd2b9e86d0e in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #11: <unknown function> + 0xe224d0 (0x7fd2b82af4d0 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #12: at::Tensor::mm(at::Tensor const&) const + 0xf0 (0x7fd2b7e73180 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #13: <unknown function> + 0x264517c (0x7fd2b9ad217c in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #14: torch::autograd::generated::AddmmBackward::apply(std::vector<at::Tensor, std::allocator<at::Tensor> >&&) + 0x1b0 (0x7fd2b9ad2690 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #15: <unknown function> + 0x2ae8215 (0x7fd2b9f75215 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #16: torch::autograd::Engine::evaluate_function(std::shared_ptr<torch::autograd::GraphTask>&, torch::autograd::Node*, torch::autograd::InputBuffer&) + 0x16f3 (0x7fd2b9f72513 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #17: torch::autograd::Engine::thread_main(std::shared_ptr<torch::autograd::GraphTask> const&, bool) + 0x3d2 (0x7fd2b9f732f2 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #18: torch::autograd::Engine::thread_init(int) + 0x39 (0x7fd2b9f6b969 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so)
+frame #19: torch::autograd::python::PythonEngine::thread_init(int) + 0x38 (0x7fd2bd2ac9f8 in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/lib/libtorch_python.so)
+frame #20: <unknown function> + 0xc819d (0x7fd2dc18f19d in /mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/pandas/_libs/window/../../../../../libstdc++.so.6)
+frame #21: <unknown function> + 0x7ea5 (0x7fd2f1812ea5 in /lib64/libpthread.so.0)
+frame #22: clone + 0x6d (0x7fd2f153b8dd in /lib64/libc.so.6)
+

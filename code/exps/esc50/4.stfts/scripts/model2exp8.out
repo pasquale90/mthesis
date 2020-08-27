@@ -1,0 +1,21 @@
+exp8
+(2000, 7)
+audio_files length:2000
+loadin stft-spectograms..
+features are loaded
+cpu
+model initialized...
+attempt is already initialized
+Experiment's _exp8 attempt no_ : 2
+Train started..
+Traceback (most recent call last):
+  File "/mnt/scratch_a/users/m/melissap/code/exps/esc50/4.stfts/main.py", line 85, in <module>
+    train.train(model, loss_fn, train_loader, valid_loader, 
+  File "/mnt/scratch_a/users/m/melissap/code/exps/esc50/4.stfts/train.py", line 61, in train
+    optimizer.step()
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 15, in decorate_context
+    return func(*args, **kwargs)
+  File "/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torch/optim/adam.py", line 107, in step
+    denom = (exp_avg_sq.sqrt() / math.sqrt(bias_correction2)).add_(group['eps'])
+RuntimeError: [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 3506176000 bytes. Error code 12 (Cannot allocate memory)
+
