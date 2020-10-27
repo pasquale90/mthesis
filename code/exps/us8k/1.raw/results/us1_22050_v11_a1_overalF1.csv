@@ -1,3 +1,0 @@
-epochs,mean_train_loss,mean_valid_loss,micro_f1,macro_f1
-epoch_1,2.293,3.596,0.1458,0.01499
-epoch_2,2.033,3.865,0.135,0.0152
