@@ -59,7 +59,7 @@ var routes = (
 
 #### Method
 
-<h3 align="center">General method scheme concerning all experiments:</h3>
+<h4 align="center">General method scheme concerning all experiments:</h4>
 
 <p align="center">
 <img src="pics/method.png" width="700px"/>
@@ -67,22 +67,22 @@ var routes = (
 
 #### Models
 
-<h3 align="center">1.raw architecture scheme</h3>
+<h4 align="center">1.raw architecture scheme</h4>
 <p align="center">
 <img src="pics/1.raw.png" width="700px"/>
 </p>
  
-<h3 align="center">2.flat architecture scheme</h3>
+<h4 align="center">2.flat architecture scheme</h4>
 <p align="center">
 <img src="pics/2.flat.png" width="700px"/>
 </p>
 
-<h3 align="center">3.mel architecture scheme</h3>
+<h4 align="center">3.mel architecture scheme</h4>
 <p align="center">
 <img src="pics/3.mel.png" width="700px"/>
 
 
-<h3 align="center">4.stfts architecture scheme</h3>
+<h4 align="center">4.stfts architecture scheme</h4>
 <p align="center">
 <img src="pics/4.stfts.png" width="700px"/>
  </p>
