@@ -59,9 +59,9 @@ var routes = (
 
 #### Method
 
-General method scheme concerning all experiments:
 
 <p align="center">
+<h3 align="center">General method scheme concerning all experiments:</h3>
 <img src="pics/method.png" width="700px"/>
 </p>
 
