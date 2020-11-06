@@ -53,8 +53,8 @@ var routes = (
 
 #### Data_augmentation
 
-Audio data augmentation: White Noise, Time Stretching, Time Shifting, Pitch Shifting
-Image data augmentation (2D exps) : Random Flip, Random Erasing
+- Audio data augmentation: White Noise, Time Stretching, Time Shifting, Pitch Shifting
+- Image data augmentation (2D exps) : Random Flip, Random Erasing
 
 
 #### Method
