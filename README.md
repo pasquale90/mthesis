@@ -64,8 +64,7 @@ General method scheme concerning all experiments:
 <p align="center">
 <img src="pics/3.mel.png" width="700px"/>
  
- <br></p>
- 
+<br></p>
 
 <h3 align="center">4.stfts architecture scheme</h3>
 <p align="center">
