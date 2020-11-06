@@ -1,6 +1,5 @@
+# Audio signal classification using deep learning algorithms
 <div align="center">
-  # Audio signal classification using deep learning algorithms
-
   [![university](https://img.shields.io/badge/apth.svg)](https://www.auth.gr/en)
 </div>
 
