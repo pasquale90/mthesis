@@ -48,10 +48,9 @@ General method scheme concerning all experiments:
 
 #### Architecture
 
-<p align="center">
-<h5>1.raw architecture scheme</h5>
-</p>
-<p align="center">
+
+<h5 style="text-align:center">1.raw architecture scheme</h5>
+
 <img src="pics/1.raw.png" width="700px"/>
 </p>
 
