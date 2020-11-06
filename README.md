@@ -1,6 +1,6 @@
 # Audio signal classification using deep learning algorithms
 <div align="center">
-  [![university](https://img.shields.io/badge/apth.svg)](https://www.auth.gr/en)
+  [![university](https://img.shields.io/badge/University-%CE%91%CE%A0%CE%98-red)](https://www.auth.gr/en)
 </div>
 
 In this thesis we compare the performance of multiple feature parameters for environmental sound classification problems by developing multiple evaluating models. Specifically, as audio representation of 2 different datasets, we used waveforms, log-mel spectrograms and short-time Fourier transforms. Finally we set 4 different experiments and each one of them was divided in two discrete audio representation modes. For their evaluation and also for comparability purposes we developed hybrid CNN models. Along with comparing each mode within each experiment, we also compared the performances achieved by using each different dataset through inspecting and examining the factors of structure, the technical features and various prospects of the initial data distribution, respectively for each dataset. The nature of this research served us the additional opportunity to seek for potential environmental class-conditional audio features.
