@@ -48,8 +48,6 @@ General method scheme concerning all experiments:
 
 #### Architecture
 
-<p><br></p> 
-
 <h3 align="center">1.raw architecture scheme</h3>
 <p align="center">
 <img src="pics/1.raw.png" width="700px"/>
@@ -63,8 +61,7 @@ General method scheme concerning all experiments:
 <h3 align="center">3.mel architecture scheme</h3>
 <p align="center">
 <img src="pics/3.mel.png" width="700px"/>
- 
-<br></p>
+
 
 <h3 align="center">4.stfts architecture scheme</h3>
 <p align="center">
