@@ -50,24 +50,19 @@ General method scheme concerning all experiments:
 
 
 <h3 align="center">&#13;&#10;1.raw architecture scheme</h3>
-<img src="pics/1.raw.png" width="700px"/>
-
-<h3 align="center">&#13;&#10;2.flat architecture scheme</h3>
-<img src="pics/2.flat.png" width="700px"/>
-
 <p align="center">
-<p3 "3.mel architecture scheme"/>
+<img src="pics/1.raw.png" width="700px"/>
 </p>
+
+<h3 align="center">&#13;&#10;3.mel architecture scheme</h3>
 <p align="center">
 <img src="pics/3.mel.png" width="700px"/>
-</p>
+ </p>
 
-<p align="center">
-<p3 "4.stfts architecture scheme"/>
-</p>
+<h3 align="center">&#13;&#10;4.stfts architecture scheme</h3>
 <p align="center">
 <img src="pics/4.stfts.png" width="700px"/>
-</p>
+ </p>
 
 
 
