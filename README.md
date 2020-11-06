@@ -49,7 +49,7 @@ General method scheme concerning all experiments:
 #### Architecture
 
 
-<h5 style="text-align:center">1.raw architecture scheme</h5>
+<h5 align="center">1.raw architecture scheme</h5>
 
 <img src="pics/1.raw.png" width="700px"/>
 </p>
