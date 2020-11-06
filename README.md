@@ -54,15 +54,20 @@ General method scheme concerning all experiments:
 <img src="pics/1.raw.png" width="700px"/>
 </p>
 
-<h3 align="center">&#10;2.flat architecture scheme</h3>
+ <p><br></p> 
+ 
+<h3 align="center">2.flat architecture scheme</h3>
 <p align="center">
 <img src="pics/2.flat.png" width="700px"/>
 </p>
 
+<p><br></p> 
+
 <h3 align="center">&#10;3.mel architecture scheme</h3>
 <p align="center">
 <img src="pics/3.mel.png" width="700px"/>
- </p>
+ <br></p>
+ 
 
 <h3 align="center">&#10;4.stfts architecture scheme</h3>
 <p align="center">
