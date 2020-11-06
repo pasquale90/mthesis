@@ -49,17 +49,11 @@ General method scheme concerning all experiments:
 #### Architecture
 
 
-<h5 align="center">1.raw architecture scheme</h5>
-
+<h3 align="center">&#13;&#10;1.raw architecture scheme</h3>
 <img src="pics/1.raw.png" width="700px"/>
-</p>
 
-<p align="center">
-<p3 "2.flat architecture scheme"/>
-</p>
-<p align="center">
+<h3 align="center">&#13;&#10;2.flat architecture scheme</h3>
 <img src="pics/2.flat.png" width="700px"/>
-</p>
 
 <p align="center">
 <p3 "3.mel architecture scheme"/>
