@@ -43,7 +43,7 @@ Image data augmentation (2D exps) : Random Flip, Random Erasing
 General method scheme concerning all experiments:
 
 <p align="center">
-<img src="pics/method.png" width="400px"/>
+<img src="pics/method.png" width="700px"/>
 </p>
 
 #### Architecture
@@ -52,28 +52,28 @@ General method scheme concerning all experiments:
 <p3 "1.raw architecture scheme"/>
 </p>
 <p align="center">
-<img src="pics/1.raw.png" width="400px"/>
+<img src="pics/1.raw.png" width="700px"/>
 </p>
 
 <p align="center">
 <p3 "2.flat architecture scheme"/>
 </p>
 <p align="center">
-<img src="pics/2.flat.png" width="400px"/>
+<img src="pics/2.flat.png" width="700px"/>
 </p>
 
 <p align="center">
 <p3 "3.mel architecture scheme"/>
 </p>
 <p align="center">
-<img src="pics/3.mel.png" width="400px"/>
+<img src="pics/3.mel.png" width="700px"/>
 </p>
 
 <p align="center">
 <p3 "4.stfts architecture scheme"/>
 </p>
 <p align="center">
-<img src="pics/4.stfts.png" width="400px"/>
+<img src="pics/4.stfts.png" width="700px"/>
 </p>
 
 
