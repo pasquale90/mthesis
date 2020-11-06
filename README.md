@@ -1,7 +1,13 @@
 # Audio signal classification using deep learning algorithms
 <div align="center">
 
-[![University](https://img.shields.io/badge/University-%CE%91%CE%A0%CE%98-red.svg)](https://urbansounddataset.weebly.com/urbansound8k.html)
+[![University](https://img.shields.io/badge/University-%CE%91%CE%A0%CE%98-red.svg)](http://ee.auth.gr/)
+[![Subject](https://img.shields.io/badge/Subject-environmental%20audio%20classification-lightgrey.svg)](https://github.com/pasquale90/mthesis)
+[![Subject](https://img.shields.io/badge/computational%20resources-%CE%91%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%84%CE%AD%CE%BB%CE%B7%CF%82-brightgreen.svg)](https://hpc.it.auth.gr/)
+[![City](https://img.shields.io/badge/City-Thessaloniki-blue.svg)](https://github.com/pasquale90/mthesis)
+[![Year](https://img.shields.io/badge/Year-2020-yellow.svg)](https://github.com/pasquale90/mthesis)
+
+
 
 </div>
 
