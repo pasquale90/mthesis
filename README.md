@@ -8,7 +8,6 @@ In this thesis we compare the performance of multiple feature parameters for env
 - [Audio_representations](#features)
 - [Data_augmentation](#augmentation)
 - [Method](#method)
-- [Architecture](#architecture)
 - [Models](#models)
 - [Results](#results)
 
@@ -46,7 +45,7 @@ General method scheme concerning all experiments:
 <img src="pics/method.png" width="700px"/>
 </p>
 
-#### Architecture
+#### Models
 
 <h3 align="center">1.raw architecture scheme</h3>
 <p align="center">
@@ -67,6 +66,14 @@ General method scheme concerning all experiments:
 <p align="center">
 <img src="pics/4.stfts.png" width="700px"/>
  </p>
+ 
+ #### Results
+ 
+ general
+ fold
+ general
+ 
+ 
 
 
 
