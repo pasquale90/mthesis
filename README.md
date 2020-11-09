@@ -57,29 +57,29 @@ In this thesis we compared the performance of multiple feature parameters for en
 <h4 align="center">General method scheme concerning all experiments:</h4>
 
 <p align="center">
-<img src="pics/method.png" width="700px"/>
+<img src="arch/method.png" width="700px"/>
 </p>
 
 #### Models
 
 <h4 align="center">1.raw architecture scheme</h4>
 <p align="center">
-<img src="pics/1.raw.png" width="700px"/>
+<img src="arch/1.raw.png" width="700px"/>
 </p>
  
 <h4 align="center">2.flat architecture scheme</h4>
 <p align="center">
-<img src="pics/2.flat.png" width="700px"/>
+<img src="arch/2.flat.png" width="700px"/>
 </p>
 
 <h4 align="center">3.mel architecture scheme</h4>
 <p align="center">
-<img src="pics/3.mel.png" width="700px"/>
+<img src="arch/3.mel.png" width="700px"/>
 
 
 <h4 align="center">4.stfts architecture scheme</h4>
 <p align="center">
-<img src="pics/4.stfts.png" width="700px"/>
+<img src="arch/4.stfts.png" width="700px"/>
  </p>
  
  #### Results
