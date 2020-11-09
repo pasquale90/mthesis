@@ -24,68 +24,10 @@ In this thesis we compared the performance of multiple feature parameters for en
 
 #### Folders' Structure
 
-│   Presentation.pptx
-│   README.md
-│
-├───analysis_parameters
-│       MEL_Parameters_experiment[esc50].ipynb
-│       STFTs_Parameters_experiment[esc50].ipynb
-│
-├───arch
-│       1.raw.png
-│       2.flat.png
-│       3.mel.png
-│       4.stfts.png
-│       method.png
-│
-├───code
-│   │   1.raw_ESC-50.ipynb
-│   │   2.flat_ESC-50.ipynb
-│   │   2.flat_UrbanSound8k.ipynb
-│   │   3.mel_ESC-50.ipynb
-│   │   3.mel_UrbanSound8k.ipynb
-│   │   4.stfts_ESC-50.ipynb
-│   │
-│   ├───1.raw_UrbanSound8k[hpc]
-│   │
-│   └───4.stfts_UrbanSound8k
-│ 
-│
-├───datanalysis
-│   │   DCase13_DataAnalysis_and_visualizations.ipynb
-│   │   Esc50_DataAnalysis_and_visualizations.ipynb
-│   │   UrbanSound8k_DataAnalysis_and_visualizations.ipynb
-│   │
-│   ├───esc50
-│   │
-│   └───us8k
-│
-├───other
-│       esc_3.mel[new_features+DenseNet_121].ipynb
-│       esc_4.stfts[new_features+DenseNet_121].ipynb
-│
-└───results
-    │   1.raw[kfold].png
-    │   2.flat[kfold].png
-    │   3,mel[kfold].png
-    │   4.stfts[kfold].png
-    │   general.png
-    │   Preprocess_Average&Analytical_Results.ipynb
-    │
-    └───Analytical
-        ├───exp1
-        │   ├───esc50
-        │   │   ├───<mode 1>
-        │   │   │
-        │   │   └───<mode 2>
-        │   │
-        │   └───us8k
-        │       ├───<mode 1>
-        │       │
-        │       └───<mode 2>
-        │
-        └───exp2 ....
-            
+<p align="left">
+<img src="contents.jpg" width="700px"/>
+</p>
+         
 
 
 #### Tools
