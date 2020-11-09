@@ -93,7 +93,9 @@ In this thesis we compared the performance of multiple feature parameters for en
  <a href="https://github.com/pasquale90/mthesis/tree/master/Results">analytical fold results</a>
 </h4>
  
- <h4 align="center">Analytical class results</h4>
+<h4 align="center">
+ <a href = "https://github.com/pasquale90/mthesis/tree/master/Results/Analytical">analytical class results</a>
+</h4>
   
 
 
