@@ -22,8 +22,104 @@ In this thesis we compared the performance of multiple feature parameters for en
 - [Models](#models)
 - [Results](#results)
 
-###Folders' Structure
-[]
+#### Folders' Structure
+
+│   Presentation.pptx
+│   README.md
+│
+├───analysis_parameters
+│       MEL_Parameters_experiment[esc50].ipynb
+│       STFTs_Parameters_experiment[esc50].ipynb
+│
+├───arch
+│       1.raw.png
+│       2.flat.png
+│       3.mel.png
+│       4.stfts.png
+│       method.png
+│
+├───code
+│   │   1.raw_ESC-50.ipynb
+│   │   2.flat_ESC-50.ipynb
+│   │   2.flat_UrbanSound8k.ipynb
+│   │   3.mel_ESC-50.ipynb
+│   │   3.mel_UrbanSound8k.ipynb
+│   │   4.stfts_ESC-50.ipynb
+│   │
+│   ├───1.raw_UrbanSound8k[hpc]
+│   │
+│   └───4.stfts_UrbanSound8k
+│ 
+│
+├───datanalysis
+│   │   DCase13_DataAnalysis_and_visualizations.ipynb
+│   │   Esc50_DataAnalysis_and_visualizations.ipynb
+│   │   UrbanSound8k_DataAnalysis_and_visualizations.ipynb
+│   │
+│   ├───esc50
+│   │
+│   └───us8k
+│
+├───other
+│       esc_3.mel[new_features+DenseNet_121].ipynb
+│       esc_4.stfts[new_features+DenseNet_121].ipynb
+│
+└───results
+    │   1.raw[kfold].png
+    │   2.flat[kfold].png
+    │   3,mel[kfold].png
+    │   4.stfts[kfold].png
+    │   general.png
+    │   Preprocess_Average&Analytical_Results.ipynb
+    │
+    └───Analytical
+        ├───1.raw
+        │   ├───esc50
+        │   │   ├───16
+        │   │   │
+        │   │   └───32
+        │   │
+        │   └───us8k
+        │       ├───16
+        │       │
+        │       └───32
+        │
+        ├───2.flat
+        │   ├───esc50
+        │   │   ├───128
+        │   │   │
+        │   │   └───80
+        │   │
+        │   └───us8k
+        │       ├───128
+        │       │
+        │       └───80
+        │
+        ├───3.mel
+        │   ├───esc50
+        │   │   ├───128
+        │   │   │
+        │   │   ├───360
+        │   │   │
+        │   │   └───80(unofficial)
+        │   │
+        │   └───us8k
+        │       ├───128
+        │       │
+        │       ├───360
+        │       │
+        │       └───80(unofficial)
+        │
+        └───4.stfts
+            ├───esc50
+            │   ├───1
+            │   │
+            │   └───2
+            │
+            └───us8k
+                ├───1
+                │
+                └───2
 
 
 #### Tools
@@ -84,11 +180,19 @@ In this thesis we compared the performance of multiple feature parameters for en
  
  #### Results
  
- general
- fold
- general
+<h4 align="center">Average</h4>
+<p align="center">
+<img src="Results/general.png" width="700px"/>
+ </p>
  
+<h4 align="center">
+ <a href="https://github.com/pasquale90/mthesis/tree/master/Results">analytical fold results</a>
+</h4>
  
+<h4 align="center">
+ <a href = "https://github.com/pasquale90/mthesis/tree/master/Results/Analytical">analytical class results</a>
+</h4>
+  
 
 
 
