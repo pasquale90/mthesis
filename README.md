@@ -73,53 +73,19 @@ In this thesis we compared the performance of multiple feature parameters for en
     │   Preprocess_Average&Analytical_Results.ipynb
     │
     └───Analytical
-        ├───1.raw
+        ├───exp1
         │   ├───esc50
-        │   │   ├───16
+        │   │   ├───<mode 1>
         │   │   │
-        │   │   └───32
+        │   │   └───<mode 2>
         │   │
         │   └───us8k
-        │       ├───16
+        │       ├───<mode 1>
         │       │
-        │       └───32
+        │       └───<mode 2>
         │
-        ├───2.flat
-        │   ├───esc50
-        │   │   ├───128
-        │   │   │
-        │   │   └───80
-        │   │
-        │   └───us8k
-        │       ├───128
-        │       │
-        │       └───80
-        │
-        ├───3.mel
-        │   ├───esc50
-        │   │   ├───128
-        │   │   │
-        │   │   ├───360
-        │   │   │
-        │   │   └───80(unofficial)
-        │   │
-        │   └───us8k
-        │       ├───128
-        │       │
-        │       ├───360
-        │       │
-        │       └───80(unofficial)
-        │
-        └───4.stfts
-            ├───esc50
-            │   ├───1
-            │   │
-            │   └───2
-            │
-            └───us8k
-                ├───1
-                │
-                └───2
+        └───exp2 ....
+            
 
 
 #### Tools
