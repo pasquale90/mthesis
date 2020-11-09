@@ -84,16 +84,17 @@ In this thesis we compared the performance of multiple feature parameters for en
  
  #### Results
  
-<h4 align="center">Average Results</h4>
+<h4 align="center">Average</h4>
 <p align="center">
 <img src="Results/general.png" width="700px"/>
  </p>
  
+<h4 align="center">
+ <a href="https://github.com/pasquale90/mthesis/tree/master/Results">analytical fold results</a>
+</h4>
  
- fold
- general
- 
- 
+ <h4 align="center">Analytical class results</h4>
+  
 
 
 
