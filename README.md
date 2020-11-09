@@ -84,7 +84,12 @@ In this thesis we compared the performance of multiple feature parameters for en
  
  #### Results
  
- general
+<h4 align="center">Average Results</h4>
+<p align="center">
+<img src="Results/general.png" width="700px"/>
+ </p>
+ 
+ 
  fold
  general
  
