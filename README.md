@@ -32,10 +32,10 @@ In this thesis we compared the performance of multiple feature parameters for en
 
 #### Tools
 
-- code implementation : [python3] (https://www.python.org/) 
-- environment/packages : [miniconda3] (https://docs.conda.io/projects/conda/en/latest/)
+- code implementation : [python3](https://www.python.org/) 
+- environment/packages : [miniconda3](https://docs.conda.io/projects/conda/en/latest/)
 - framework : [pytorch] (https://github.com/pytorch/pytorch)
-- feature extraction/synthetic data : [librosa] (https://librosa.org/)
+- feature extraction/synthetic data : [librosa](https://librosa.org/)
 - image augmentation : [torchvision](https://github.com/pytorch/vision)
 
 #### Datasets
