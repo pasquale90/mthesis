@@ -40,8 +40,8 @@ In this thesis we compared the performance of multiple feature parameters for en
 
 #### Datasets
 
-- ESC-50 : (https://github.com/karolpiczak/ESC-50)
-- UrbanSound8k : (https://urbansounddataset.weebly.com/urbansound8k.html)
+- [ESC-50](https://github.com/karolpiczak/ESC-50)
+- [UrbanSound8k](https://urbansounddataset.weebly.com/urbansound8k.html)
 
 #### Audio_representations
 
