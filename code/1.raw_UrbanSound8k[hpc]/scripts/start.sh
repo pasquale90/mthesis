@@ -5,10 +5,10 @@
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks=10
-#SBATCH --cpus-per-task=10
+#SBATCH --cpus-per-task=1
 #SBATCH --mem=50G
 #SBATCH --gres=gpu:1
-#SBATCH --ntasks-per-node=1
+#SBATCH --ntasks-per-node=10
 
 module load gcc miniconda3 
 source $CONDA_PROFILE/conda.sh
