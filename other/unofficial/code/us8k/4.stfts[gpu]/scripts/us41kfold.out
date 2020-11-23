@@ -1,0 +1,2569 @@
+/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torchvision/transforms/functional.py:92: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /opt/conda/conda-bld/pytorch_1603729061180/work/torch/csrc/utils/tensor_numpy.cpp:141.)
+  img = torch.from_numpy(np.array(pic, np.float32, copy=False))
+1
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+num_classes:  10
+sampling_rate: 16000, hop_length: 256, fft_points: 512
+Extracting features ........ 
+
+Feature Shape Check
+
+raw had len:4.0, and padded has len:4.0
+Spectogram has shape : (257, 251) with min:0 and max:255]
+
+Padded Feature Shape Check
+
+raw had len:0.1098125, and padded has len:4.0
+Spectogram has shape : (257, 251) with min:0 and max:255
+Features are extracted!
+ feature's len : 17464, labels : 17464, folders : 17464
+device :  cuda:0
+train_folds:  [2, 3, 4, 5, 6, 7, 8, 9, 10]
+valid_fold:  [1]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+attempt is already initialized
+Experiment's _1 attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.7046855374003476
+
+Epoch - 1 Valid-Loss : 1.366078930009495
+micro_f1_1 = 0.5240549828178694 
+macro_f1_1 = 0.4997341597302036 
+minloss 1.366078930009495
+just saved the best current model in epoch1, with acc1:0.4997341597302036, and acc2:0.5240549828178694
+
+Epoch - 2 Train-Loss : 1.2212129204040383
+
+Epoch - 2 Valid-Loss : 1.048699900033799
+micro_f1_2 = 0.631729667812142 
+macro_f1_2 = 0.6330858935445608 
+minloss 1.048699900033799
+just saved the best current model in epoch2, with acc1:0.6330858935445608, and acc2:0.631729667812142
+
+Epoch - 3 Train-Loss : 0.9820452513493454
+
+Epoch - 3 Valid-Loss : 0.9147217820440843
+micro_f1_3 = 0.702176403207331 
+macro_f1_3 = 0.693266783554485 
+minloss 0.9147217820440843
+just saved the best current model in epoch3, with acc1:0.693266783554485, and acc2:0.702176403207331
+
+Epoch - 4 Train-Loss : 0.8462733165233084
+
+Epoch - 4 Valid-Loss : 0.8802452211141247
+micro_f1_4 = 0.7119129438717067 
+macro_f1_4 = 0.7127343727206503 
+minloss 0.8802452211141247
+just saved the best current model in epoch4, with acc1:0.7127343727206503, and acc2:0.7119129438717067
+
+Epoch - 5 Train-Loss : 0.7439980282166846
+
+Epoch - 5 Valid-Loss : 0.8808837492272935
+micro_f1_5 = 0.7331042382588775 
+macro_f1_5 = 0.7305588890571444 
+minloss 0.8802452211141247
+just saved the best current model in epoch5, with acc1:0.7305588890571444, and acc2:0.7331042382588775
+
+Epoch - 6 Train-Loss : 0.6797829740893926
+
+Epoch - 6 Valid-Loss : 0.7852861658162014
+micro_f1_6 = 0.7462772050400917 
+macro_f1_6 = 0.745923608082588 
+minloss 0.7852861658162014
+just saved the best current model in epoch6, with acc1:0.745923608082588, and acc2:0.7462772050400917
+
+Epoch - 7 Train-Loss : 0.6184319511647142
+
+Epoch - 7 Valid-Loss : 0.8248602317116985
+micro_f1_7 = 0.7462772050400917 
+macro_f1_7 = 0.7504200919853096 
+minloss 0.7852861658162014
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 8 Train-Loss : 0.5640906026380351
+
+Epoch - 8 Valid-Loss : 0.8469251404431734
+micro_f1_8 = 0.7147766323024055 
+macro_f1_8 = 0.7184943737331585 
+minloss 0.7852861658162014
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 9 Train-Loss : 0.518928162154807
+
+Epoch - 9 Valid-Loss : 0.7721820147157732
+micro_f1_9 = 0.7342497136311569 
+macro_f1_9 = 0.7391631483285533 
+minloss 0.7721820147157732
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 10 Train-Loss : 0.48268810837763615
+
+Epoch - 10 Valid-Loss : 0.8225330343268896
+micro_f1_10 = 0.7376861397479956 
+macro_f1_10 = 0.7424991854949682 
+minloss 0.7721820147157732
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 11 Train-Loss : 0.4518665561522618
+
+Epoch - 11 Valid-Loss : 0.9385091973897282
+micro_f1_11 = 0.7056128293241696 
+macro_f1_11 = 0.7134969923946084 
+minloss 0.7721820147157732
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 12 Train-Loss : 0.41831347831389426
+
+Epoch - 12 Valid-Loss : 0.7766755529515318
+micro_f1_12 = 0.7325315005727375 
+macro_f1_12 = 0.7454812814158098 
+minloss 0.7721820147157732
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 13 Train-Loss : 0.386955503389497
+
+Epoch - 13 Valid-Loss : 0.8555551268456673
+micro_f1_13 = 0.7302405498281787 
+macro_f1_13 = 0.7409694746205436 
+minloss 0.7721820147157732
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 14 Train-Loss : 0.36010847312880495
+
+Epoch - 14 Valid-Loss : 0.8795073933751237
+micro_f1_14 = 0.7313860252004581 
+macro_f1_14 = 0.7387883852807222 
+minloss 0.7721820147157732
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+
+Epoch - 15 Train-Loss : 0.3415002210609547
+
+Epoch - 15 Valid-Loss : 0.9360256566560234
+micro_f1_15 = 0.7176403207331042 
+macro_f1_15 = 0.7330565227917373 
+minloss 0.7721820147157732
+training is terminating so as to prevent further overfitting
+just saved the best current model in epoch7, with acc1:0.7504200919853096, and acc2:0.7462772050400917
+                         1
+validation_fold:          
+micro_f1          0.750000
+macro_f1          0.746094
+params                 inf
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 3, 4, 5, 6, 7, 8, 9, 10]
+valid_fold:  [2]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.7051350010765924
+
+Epoch - 1 Valid-Loss : 1.3635022092509914
+micro_f1_1 = 0.5039414414414415 
+macro_f1_1 = 0.4797788237297668 
+minloss 1.3635022092509914
+
+Epoch - 2 Train-Loss : 1.2192781681496798
+
+Epoch - 2 Valid-Loss : 1.124140093723933
+micro_f1_2 = 0.5996621621621622 
+macro_f1_2 = 0.5999362977856673 
+minloss 1.124140093723933
+just saved the best current model in epoch2, with acc1:0.5999362977856673, and acc2:0.5996621621621622
+
+Epoch - 3 Train-Loss : 0.9752658968610988
+
+Epoch - 3 Valid-Loss : 1.07945282206879
+micro_f1_3 = 0.581081081081081 
+macro_f1_3 = 0.5958345625751359 
+minloss 1.07945282206879
+just saved the best current model in epoch2, with acc1:0.5999362977856673, and acc2:0.5996621621621622
+
+Epoch - 4 Train-Loss : 0.835945261089809
+
+Epoch - 4 Valid-Loss : 1.1182309936832737
+micro_f1_4 = 0.5974099099099099 
+macro_f1_4 = 0.6187463502763129 
+minloss 1.07945282206879
+just saved the best current model in epoch4, with acc1:0.6187463502763129, and acc2:0.5974099099099099
+
+Epoch - 5 Train-Loss : 0.7364687823921169
+
+Epoch - 5 Valid-Loss : 0.9972777213599231
+micro_f1_5 = 0.606418918918919 
+macro_f1_5 = 0.6272539640360724 
+minloss 0.9972777213599231
+just saved the best current model in epoch5, with acc1:0.6272539640360724, and acc2:0.606418918918919
+
+Epoch - 6 Train-Loss : 0.6715632244017997
+
+Epoch - 6 Valid-Loss : 0.9859212287911424
+micro_f1_6 = 0.6300675675675675 
+macro_f1_6 = 0.6515222302501831 
+minloss 0.9859212287911424
+just saved the best current model in epoch6, with acc1:0.6515222302501831, and acc2:0.6300675675675675
+
+Epoch - 7 Train-Loss : 0.6121813911758553
+
+Epoch - 7 Valid-Loss : 0.9937212514179247
+micro_f1_7 = 0.6261261261261262 
+macro_f1_7 = 0.6452520925838211 
+minloss 0.9859212287911424
+just saved the best current model in epoch6, with acc1:0.6515222302501831, and acc2:0.6300675675675675
+
+Epoch - 8 Train-Loss : 0.5610417923401133
+
+Epoch - 8 Valid-Loss : 1.0183005730311077
+micro_f1_8 = 0.6114864864864865 
+macro_f1_8 = 0.6319411715684079 
+minloss 0.9859212287911424
+just saved the best current model in epoch6, with acc1:0.6515222302501831, and acc2:0.6300675675675675
+
+Epoch - 9 Train-Loss : 0.5164909899295531
+
+Epoch - 9 Valid-Loss : 1.0551299084951211
+micro_f1_9 = 0.6447072072072072 
+macro_f1_9 = 0.6640848541807227 
+minloss 0.9859212287911424
+just saved the best current model in epoch9, with acc1:0.6640848541807227, and acc2:0.6447072072072072
+
+Epoch - 10 Train-Loss : 0.4765334938644269
+
+Epoch - 10 Valid-Loss : 0.8037064703735145
+micro_f1_10 = 0.6824324324324325 
+macro_f1_10 = 0.7108242841435318 
+minloss 0.8037064703735145
+just saved the best current model in epoch10, with acc1:0.7108242841435318, and acc2:0.6824324324324325
+
+Epoch - 11 Train-Loss : 0.44276968168738423
+
+Epoch - 11 Valid-Loss : 0.9331416752155837
+micro_f1_11 = 0.651463963963964 
+macro_f1_11 = 0.6701265939698758 
+minloss 0.8037064703735145
+just saved the best current model in epoch10, with acc1:0.7108242841435318, and acc2:0.6824324324324325
+
+Epoch - 12 Train-Loss : 0.42030711362668133
+
+Epoch - 12 Valid-Loss : 0.8887582029979508
+micro_f1_12 = 0.6734234234234234 
+macro_f1_12 = 0.6956971649449993 
+minloss 0.8037064703735145
+just saved the best current model in epoch10, with acc1:0.7108242841435318, and acc2:0.6824324324324325
+
+Epoch - 13 Train-Loss : 0.38941343036023607
+
+Epoch - 13 Valid-Loss : 0.8327158645198152
+micro_f1_13 = 0.7055180180180181 
+macro_f1_13 = 0.7279979608636419 
+minloss 0.8037064703735145
+just saved the best current model in epoch13, with acc1:0.7279979608636419, and acc2:0.7055180180180181
+
+Epoch - 14 Train-Loss : 0.37422496453307336
+
+Epoch - 14 Valid-Loss : 0.9230405690970721
+micro_f1_14 = 0.6841216216216216 
+macro_f1_14 = 0.7029667784198865 
+minloss 0.8037064703735145
+just saved the best current model in epoch13, with acc1:0.7279979608636419, and acc2:0.7055180180180181
+
+Epoch - 15 Train-Loss : 0.34022483743241133
+
+Epoch - 15 Valid-Loss : 1.0327481451603744
+micro_f1_15 = 0.6773648648648649 
+macro_f1_15 = 0.7006011018584555 
+minloss 0.8037064703735145
+just saved the best current model in epoch13, with acc1:0.7279979608636419, and acc2:0.7055180180180181
+
+Epoch - 16 Train-Loss : 0.320448367097904
+
+Epoch - 16 Valid-Loss : 0.8772727849784198
+micro_f1_16 = 0.696509009009009 
+macro_f1_16 = 0.7154229494660201 
+minloss 0.8037064703735145
+just saved the best current model in epoch13, with acc1:0.7279979608636419, and acc2:0.7055180180180181
+
+Epoch - 17 Train-Loss : 0.30416272359232777
+
+Epoch - 17 Valid-Loss : 0.8627757181723913
+micro_f1_17 = 0.7083333333333334 
+macro_f1_17 = 0.7254802812493317 
+minloss 0.8037064703735145
+just saved the best current model in epoch17, with acc1:0.7254802812493317, and acc2:0.7083333333333334
+
+Epoch - 18 Train-Loss : 0.2840133208276421
+
+Epoch - 18 Valid-Loss : 0.9579706677982399
+micro_f1_18 = 0.6925675675675675 
+macro_f1_18 = 0.7076819145592453 
+minloss 0.8037064703735145
+just saved the best current model in epoch17, with acc1:0.7254802812493317, and acc2:0.7083333333333334
+
+Epoch - 19 Train-Loss : 0.26753160079312677
+
+Epoch - 19 Valid-Loss : 0.9370002345190392
+micro_f1_19 = 0.6959459459459459 
+macro_f1_19 = 0.7087538839796548 
+minloss 0.8037064703735145
+just saved the best current model in epoch17, with acc1:0.7254802812493317, and acc2:0.7083333333333334
+
+Epoch - 20 Train-Loss : 0.2493109567314918
+
+Epoch - 20 Valid-Loss : 0.9105279614125286
+micro_f1_20 = 0.6981981981981982 
+macro_f1_20 = 0.7177800647327663 
+minloss 0.8037064703735145
+just saved the best current model in epoch17, with acc1:0.7254802812493317, and acc2:0.7083333333333334
+
+Epoch - 21 Train-Loss : 0.2415622917500445
+
+Epoch - 21 Valid-Loss : 1.0579419453536067
+micro_f1_21 = 0.7043918918918919 
+macro_f1_21 = 0.7200707396422996 
+minloss 0.8037064703735145
+just saved the best current model in epoch17, with acc1:0.7254802812493317, and acc2:0.7083333333333334
+
+Epoch - 22 Train-Loss : 0.2236680046642896
+
+Epoch - 22 Valid-Loss : 0.9062267922469087
+micro_f1_22 = 0.7195945945945946 
+macro_f1_22 = 0.7342532143612531 
+minloss 0.8037064703735145
+just saved the best current model in epoch22, with acc1:0.7342532143612531, and acc2:0.7195945945945946
+
+Epoch - 23 Train-Loss : 0.21007672165094227
+
+Epoch - 23 Valid-Loss : 0.8804458789191805
+micro_f1_23 = 0.7055180180180181 
+macro_f1_23 = 0.7288648643809932 
+minloss 0.8037064703735145
+just saved the best current model in epoch22, with acc1:0.7342532143612531, and acc2:0.7195945945945946
+
+Epoch - 24 Train-Loss : 0.20148116423179765
+
+Epoch - 24 Valid-Loss : 0.9205842389314024
+micro_f1_24 = 0.7184684684684685 
+macro_f1_24 = 0.7417345849208091 
+minloss 0.8037064703735145
+just saved the best current model in epoch24, with acc1:0.7417345849208091, and acc2:0.7184684684684685
+
+Epoch - 25 Train-Loss : 0.19132248287266698
+
+Epoch - 25 Valid-Loss : 0.9286213666200638
+micro_f1_25 = 0.7117117117117117 
+macro_f1_25 = 0.7361995622146577 
+minloss 0.8037064703735145
+just saved the best current model in epoch24, with acc1:0.7417345849208091, and acc2:0.7184684684684685
+
+Epoch - 26 Train-Loss : 0.17934294766390452
+
+Epoch - 26 Valid-Loss : 0.926985680989854
+micro_f1_26 = 0.721846846846847 
+macro_f1_26 = 0.7419232073488401 
+minloss 0.8037064703735145
+just saved the best current model in epoch26, with acc1:0.7419232073488401, and acc2:0.721846846846847
+
+Epoch - 27 Train-Loss : 0.16817472370058512
+
+Epoch - 27 Valid-Loss : 0.9180009433546582
+micro_f1_27 = 0.7353603603603603 
+macro_f1_27 = 0.754028458280821 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 28 Train-Loss : 0.16254330476960518
+
+Epoch - 28 Valid-Loss : 1.0852651219848577
+micro_f1_28 = 0.7072072072072072 
+macro_f1_28 = 0.7223867037626757 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 29 Train-Loss : 0.15128145931586698
+
+Epoch - 29 Valid-Loss : 1.0475946432566858
+micro_f1_29 = 0.706081081081081 
+macro_f1_29 = 0.7277191367082896 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 30 Train-Loss : 0.14469158813683933
+
+Epoch - 30 Valid-Loss : 1.09205605734039
+micro_f1_30 = 0.7094594594594594 
+macro_f1_30 = 0.727691749385959 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 31 Train-Loss : 0.13710978299485677
+
+Epoch - 31 Valid-Loss : 0.8968146972291104
+micro_f1_31 = 0.7308558558558558 
+macro_f1_31 = 0.7527120463905709 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 32 Train-Loss : 0.12791837140168733
+
+Epoch - 32 Valid-Loss : 1.0777034184282965
+micro_f1_32 = 0.7359234234234234 
+macro_f1_32 = 0.7514365389172567 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 33 Train-Loss : 0.1257868332543413
+
+Epoch - 33 Valid-Loss : 0.9860183337854372
+micro_f1_33 = 0.7212837837837838 
+macro_f1_33 = 0.7405523238516156 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 34 Train-Loss : 0.11436867679157897
+
+Epoch - 34 Valid-Loss : 1.1008797466486424
+micro_f1_34 = 0.7201576576576577 
+macro_f1_34 = 0.7349178681753171 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+
+Epoch - 35 Train-Loss : 0.11159374934828116
+
+Epoch - 35 Valid-Loss : 1.1775156699691538
+micro_f1_35 = 0.7173423423423422 
+macro_f1_35 = 0.7344029220323767 
+minloss 0.8037064703735145
+just saved the best current model in epoch27, with acc1:0.754028458280821, and acc2:0.7353603603603603
+(3, 1)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 4, 5, 6, 7, 8, 9, 10]
+valid_fold:  [3]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.6907455465588412
+
+Epoch - 1 Valid-Loss : 1.5345138943400876
+micro_f1_1 = 0.47621621621621624 
+macro_f1_1 = 0.4667936494762356 
+minloss 1.5345138943400876
+
+Epoch - 2 Train-Loss : 1.2066554643946592
+
+Epoch - 2 Valid-Loss : 1.269503622476397
+micro_f1_2 = 0.5313513513513514 
+macro_f1_2 = 0.5487430216562296 
+minloss 1.269503622476397
+just saved the best current model in epoch2, with acc1:0.5487430216562296, and acc2:0.5313513513513514
+
+Epoch - 3 Train-Loss : 0.9643690431276795
+
+Epoch - 3 Valid-Loss : 1.1891400428681538
+micro_f1_3 = 0.5594594594594594 
+macro_f1_3 = 0.5724236104539253 
+minloss 1.1891400428681538
+just saved the best current model in epoch3, with acc1:0.5724236104539253, and acc2:0.5594594594594594
+
+Epoch - 4 Train-Loss : 0.8242029141878984
+
+Epoch - 4 Valid-Loss : 1.155850970411095
+micro_f1_4 = 0.585945945945946 
+macro_f1_4 = 0.5989524679334821 
+minloss 1.155850970411095
+just saved the best current model in epoch4, with acc1:0.5989524679334821, and acc2:0.585945945945946
+
+Epoch - 5 Train-Loss : 0.738657946499889
+
+Epoch - 5 Valid-Loss : 1.0089134076802895
+micro_f1_5 = 0.6410810810810811 
+macro_f1_5 = 0.6624226108565632 
+minloss 1.0089134076802895
+just saved the best current model in epoch5, with acc1:0.6624226108565632, and acc2:0.6410810810810811
+
+Epoch - 6 Train-Loss : 0.6667138262361777
+
+Epoch - 6 Valid-Loss : 1.1088945318398804
+micro_f1_6 = 0.6378378378378379 
+macro_f1_6 = 0.6560496859839895 
+minloss 1.0089134076802895
+just saved the best current model in epoch5, with acc1:0.6624226108565632, and acc2:0.6410810810810811
+
+Epoch - 7 Train-Loss : 0.6058620734170812
+
+Epoch - 7 Valid-Loss : 0.9957354347510584
+micro_f1_7 = 0.6713513513513514 
+macro_f1_7 = 0.6906739166089937 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 8 Train-Loss : 0.559530499895088
+
+Epoch - 8 Valid-Loss : 1.098553117814249
+micro_f1_8 = 0.6443243243243243 
+macro_f1_8 = 0.6683264450693591 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 9 Train-Loss : 0.5177734802538132
+
+Epoch - 9 Valid-Loss : 1.0384485036905469
+micro_f1_9 = 0.66 
+macro_f1_9 = 0.6816116860680174 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 10 Train-Loss : 0.4790344072093607
+
+Epoch - 10 Valid-Loss : 1.1357429728939616
+micro_f1_10 = 0.6356756756756756 
+macro_f1_10 = 0.6569396029568966 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 11 Train-Loss : 0.44441984569440124
+
+Epoch - 11 Valid-Loss : 1.0980477884797186
+micro_f1_11 = 0.632972972972973 
+macro_f1_11 = 0.6593210414784696 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 12 Train-Loss : 0.41748765682740535
+
+Epoch - 12 Valid-Loss : 1.1201883172937508
+micro_f1_12 = 0.6545945945945946 
+macro_f1_12 = 0.6786528774242689 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 13 Train-Loss : 0.3851815486273377
+
+Epoch - 13 Valid-Loss : 1.1038325826541102
+micro_f1_13 = 0.6481081081081081 
+macro_f1_13 = 0.6775298361570361 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 14 Train-Loss : 0.3639827887298631
+
+Epoch - 14 Valid-Loss : 1.1943860316713308
+micro_f1_14 = 0.6464864864864864 
+macro_f1_14 = 0.6701760026206629 
+minloss 0.9957354347510584
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 15 Train-Loss : 0.33960134395947833
+
+Epoch - 15 Valid-Loss : 0.9868358595232511
+micro_f1_15 = 0.6572972972972972 
+macro_f1_15 = 0.6857267809594527 
+minloss 0.9868358595232511
+just saved the best current model in epoch7, with acc1:0.6906739166089937, and acc2:0.6713513513513514
+
+Epoch - 16 Train-Loss : 0.3195940392248363
+
+Epoch - 16 Valid-Loss : 0.9873411282896996
+micro_f1_16 = 0.6816216216216217 
+macro_f1_16 = 0.7063059670759695 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 17 Train-Loss : 0.3036592971632776
+
+Epoch - 17 Valid-Loss : 1.008756468200992
+micro_f1_17 = 0.6448648648648648 
+macro_f1_17 = 0.6686029163232807 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 18 Train-Loss : 0.2824179153587883
+
+Epoch - 18 Valid-Loss : 1.120316063118135
+micro_f1_18 = 0.64 
+macro_f1_18 = 0.6686372499710991 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 19 Train-Loss : 0.26711976556412753
+
+Epoch - 19 Valid-Loss : 1.0988980203481584
+micro_f1_19 = 0.6524324324324324 
+macro_f1_19 = 0.6723357526757922 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 20 Train-Loss : 0.2556468541199555
+
+Epoch - 20 Valid-Loss : 1.094855607069772
+micro_f1_20 = 0.6464864864864864 
+macro_f1_20 = 0.6748308858097027 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 21 Train-Loss : 0.2434181288365641
+
+Epoch - 21 Valid-Loss : 1.148719937444247
+micro_f1_21 = 0.6518918918918919 
+macro_f1_21 = 0.6747739779864634 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 22 Train-Loss : 0.2235782639892604
+
+Epoch - 22 Valid-Loss : 1.257130827369361
+micro_f1_22 = 0.6508108108108108 
+macro_f1_22 = 0.6680045057930886 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 23 Train-Loss : 0.20992388085225505
+
+Epoch - 23 Valid-Loss : 1.0203616520197227
+micro_f1_23 = 0.6724324324324324 
+macro_f1_23 = 0.7030389634071932 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 24 Train-Loss : 0.2024780980418207
+
+Epoch - 24 Valid-Loss : 1.1536267992622893
+micro_f1_24 = 0.6481081081081081 
+macro_f1_24 = 0.67800834966415 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 25 Train-Loss : 0.19334919959665506
+
+Epoch - 25 Valid-Loss : 1.4525267245761793
+micro_f1_25 = 0.632972972972973 
+macro_f1_25 = 0.6438766494524516 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 26 Train-Loss : 0.18100569531852073
+
+Epoch - 26 Valid-Loss : 1.1688603952783962
+micro_f1_26 = 0.6664864864864865 
+macro_f1_26 = 0.6900571906081152 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 27 Train-Loss : 0.16681743956640455
+
+Epoch - 27 Valid-Loss : 1.2892736174680035
+micro_f1_27 = 0.6351351351351351 
+macro_f1_27 = 0.6506353829668826 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 28 Train-Loss : 0.16163356223937553
+
+Epoch - 28 Valid-Loss : 1.2818117709509258
+micro_f1_28 = 0.6675675675675675 
+macro_f1_28 = 0.6925532014213289 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 29 Train-Loss : 0.15353514256287884
+
+Epoch - 29 Valid-Loss : 1.287824854897014
+micro_f1_29 = 0.6389189189189189 
+macro_f1_29 = 0.659067180200536 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 30 Train-Loss : 0.1445231532609304
+
+Epoch - 30 Valid-Loss : 1.0825644705829949
+micro_f1_30 = 0.658918918918919 
+macro_f1_30 = 0.6854085363809604 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 31 Train-Loss : 0.13751642063086408
+
+Epoch - 31 Valid-Loss : 1.2508692864713997
+micro_f1_31 = 0.6708108108108108 
+macro_f1_31 = 0.6934980654264781 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 32 Train-Loss : 0.1300568819312249
+
+Epoch - 32 Valid-Loss : 1.1448430797920144
+micro_f1_32 = 0.6643243243243243 
+macro_f1_32 = 0.6969962817768165 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 33 Train-Loss : 0.12424122627784467
+
+Epoch - 33 Valid-Loss : 1.1421929865690141
+micro_f1_33 = 0.66 
+macro_f1_33 = 0.6895813415698336 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 34 Train-Loss : 0.1147794436112802
+
+Epoch - 34 Valid-Loss : 1.3895021450288336
+micro_f1_34 = 0.6637837837837838 
+macro_f1_34 = 0.6823696647834121 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+
+Epoch - 35 Train-Loss : 0.11245409496315587
+
+Epoch - 35 Valid-Loss : 1.3261236981970483
+micro_f1_35 = 0.6567567567567567 
+macro_f1_35 = 0.6764561784091383 
+minloss 0.9868358595232511
+just saved the best current model in epoch16, with acc1:0.7063059670759695, and acc2:0.6816216216216217
+(3, 2)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 3, 5, 6, 7, 8, 9, 10]
+valid_fold:  [4]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.6931052842785503
+
+Epoch - 1 Valid-Loss : 1.5600748605305148
+micro_f1_1 = 0.42323232323232324 
+macro_f1_1 = 0.4070033288581504 
+minloss 1.5600748605305148
+
+Epoch - 2 Train-Loss : 1.210270306603475
+
+Epoch - 2 Valid-Loss : 1.3458508594382195
+micro_f1_2 = 0.5368686868686868 
+macro_f1_2 = 0.5196945874924254 
+minloss 1.3458508594382195
+just saved the best current model in epoch2, with acc1:0.5196945874924254, and acc2:0.5368686868686868
+
+Epoch - 3 Train-Loss : 0.9727651113567274
+
+Epoch - 3 Valid-Loss : 1.1898012829403724
+micro_f1_3 = 0.5994949494949495 
+macro_f1_3 = 0.6067566783119385 
+minloss 1.1898012829403724
+just saved the best current model in epoch3, with acc1:0.6067566783119385, and acc2:0.5994949494949495
+
+Epoch - 4 Train-Loss : 0.8300374270963274
+
+Epoch - 4 Valid-Loss : 1.1078281162246582
+micro_f1_4 = 0.647979797979798 
+macro_f1_4 = 0.655439592675576 
+minloss 1.1078281162246582
+just saved the best current model in epoch4, with acc1:0.655439592675576, and acc2:0.647979797979798
+
+Epoch - 5 Train-Loss : 0.7353741722258408
+
+Epoch - 5 Valid-Loss : 1.0687511637806892
+micro_f1_5 = 0.6626262626262627 
+macro_f1_5 = 0.6691470528375871 
+minloss 1.0687511637806892
+just saved the best current model in epoch5, with acc1:0.6691470528375871, and acc2:0.6626262626262627
+
+Epoch - 6 Train-Loss : 0.667053451915541
+
+Epoch - 6 Valid-Loss : 1.02258918530518
+micro_f1_6 = 0.6777777777777778 
+macro_f1_6 = 0.6852952025635901 
+minloss 1.02258918530518
+just saved the best current model in epoch6, with acc1:0.6852952025635901, and acc2:0.6777777777777778
+
+Epoch - 7 Train-Loss : 0.6075663913410804
+
+Epoch - 7 Valid-Loss : 1.0281415957837337
+micro_f1_7 = 0.6585858585858586 
+macro_f1_7 = 0.6767075821348744 
+minloss 1.02258918530518
+just saved the best current model in epoch6, with acc1:0.6852952025635901, and acc2:0.6777777777777778
+
+Epoch - 8 Train-Loss : 0.5625148398324478
+
+Epoch - 8 Valid-Loss : 1.0370854461385357
+micro_f1_8 = 0.6707070707070707 
+macro_f1_8 = 0.677272164719688 
+minloss 1.02258918530518
+just saved the best current model in epoch6, with acc1:0.6852952025635901, and acc2:0.6777777777777778
+
+Epoch - 9 Train-Loss : 0.5201129712056646
+
+Epoch - 9 Valid-Loss : 1.0551877949507005
+micro_f1_9 = 0.6585858585858586 
+macro_f1_9 = 0.6690905536660459 
+minloss 1.02258918530518
+just saved the best current model in epoch6, with acc1:0.6852952025635901, and acc2:0.6777777777777778
+
+Epoch - 10 Train-Loss : 0.47889091070618267
+
+Epoch - 10 Valid-Loss : 0.9481089145185486
+micro_f1_10 = 0.7101010101010101 
+macro_f1_10 = 0.7165278150150266 
+minloss 0.9481089145185486
+just saved the best current model in epoch10, with acc1:0.7165278150150266, and acc2:0.7101010101010101
+
+Epoch - 11 Train-Loss : 0.4510274340575638
+
+Epoch - 11 Valid-Loss : 1.0020653261773047
+micro_f1_11 = 0.6888888888888889 
+macro_f1_11 = 0.6999737626254505 
+minloss 0.9481089145185486
+just saved the best current model in epoch10, with acc1:0.7165278150150266, and acc2:0.7101010101010101
+
+Epoch - 12 Train-Loss : 0.41951410111409326
+
+Epoch - 12 Valid-Loss : 0.9556412741301521
+micro_f1_12 = 0.7161616161616161 
+macro_f1_12 = 0.7204737353360141 
+minloss 0.9481089145185486
+just saved the best current model in epoch12, with acc1:0.7204737353360141, and acc2:0.7161616161616161
+
+Epoch - 13 Train-Loss : 0.392663996335704
+
+Epoch - 13 Valid-Loss : 0.9667832286607835
+micro_f1_13 = 0.6888888888888889 
+macro_f1_13 = 0.7005995290251859 
+minloss 0.9481089145185486
+just saved the best current model in epoch12, with acc1:0.7204737353360141, and acc2:0.7161616161616161
+
+Epoch - 14 Train-Loss : 0.36272409387040605
+
+Epoch - 14 Valid-Loss : 0.9512438029651681
+micro_f1_14 = 0.6974747474747475 
+macro_f1_14 = 0.7073410289567461 
+minloss 0.9481089145185486
+just saved the best current model in epoch12, with acc1:0.7204737353360141, and acc2:0.7161616161616161
+
+Epoch - 15 Train-Loss : 0.34567723012229135
+
+Epoch - 15 Valid-Loss : 0.9250712997971042
+micro_f1_15 = 0.706060606060606 
+macro_f1_15 = 0.7183870694902641 
+minloss 0.9250712997971042
+just saved the best current model in epoch12, with acc1:0.7204737353360141, and acc2:0.7161616161616161
+
+Epoch - 16 Train-Loss : 0.3207129738293588
+
+Epoch - 16 Valid-Loss : 0.8665693999538499
+micro_f1_16 = 0.7272727272727273 
+macro_f1_16 = 0.7336044108796532 
+minloss 0.8665693999538499
+just saved the best current model in epoch16, with acc1:0.7336044108796532, and acc2:0.7272727272727273
+
+Epoch - 17 Train-Loss : 0.300124112135646
+
+Epoch - 17 Valid-Loss : 0.8599381115768225
+micro_f1_17 = 0.7368686868686869 
+macro_f1_17 = 0.7411931165772524 
+minloss 0.8599381115768225
+just saved the best current model in epoch17, with acc1:0.7411931165772524, and acc2:0.7368686868686869
+
+Epoch - 18 Train-Loss : 0.28469491925105944
+
+Epoch - 18 Valid-Loss : 0.9333262052086573
+micro_f1_18 = 0.7131313131313133 
+macro_f1_18 = 0.7282453109658952 
+minloss 0.8599381115768225
+just saved the best current model in epoch17, with acc1:0.7411931165772524, and acc2:0.7368686868686869
+
+Epoch - 19 Train-Loss : 0.27050788300535217
+
+Epoch - 19 Valid-Loss : 0.8994518239051104
+micro_f1_19 = 0.7323232323232324 
+macro_f1_19 = 0.7409189563201561 
+minloss 0.8599381115768225
+just saved the best current model in epoch17, with acc1:0.7411931165772524, and acc2:0.7368686868686869
+
+Epoch - 20 Train-Loss : 0.25595374891730716
+
+Epoch - 20 Valid-Loss : 0.9218848137064807
+micro_f1_20 = 0.7262626262626264 
+macro_f1_20 = 0.7286385256940012 
+minloss 0.8599381115768225
+just saved the best current model in epoch17, with acc1:0.7411931165772524, and acc2:0.7368686868686869
+
+Epoch - 21 Train-Loss : 0.23638712644022852
+
+Epoch - 21 Valid-Loss : 0.8868834877747201
+micro_f1_21 = 0.7333333333333333 
+macro_f1_21 = 0.744774908666017 
+minloss 0.8599381115768225
+just saved the best current model in epoch21, with acc1:0.744774908666017, and acc2:0.7333333333333333
+
+Epoch - 22 Train-Loss : 0.224954594178741
+
+Epoch - 22 Valid-Loss : 0.8660475871856174
+micro_f1_22 = 0.7323232323232324 
+macro_f1_22 = 0.7402302354599671 
+minloss 0.8599381115768225
+just saved the best current model in epoch21, with acc1:0.744774908666017, and acc2:0.7333333333333333
+
+Epoch - 23 Train-Loss : 0.2150176169489287
+
+Epoch - 23 Valid-Loss : 0.930119244501956
+micro_f1_23 = 0.7080808080808081 
+macro_f1_23 = 0.7240548713891555 
+minloss 0.8599381115768225
+just saved the best current model in epoch21, with acc1:0.744774908666017, and acc2:0.7333333333333333
+
+Epoch - 24 Train-Loss : 0.2013960624410009
+
+Epoch - 24 Valid-Loss : 0.9358639715599918
+micro_f1_24 = 0.7202020202020202 
+macro_f1_24 = 0.7302208497406608 
+minloss 0.8599381115768225
+just saved the best current model in epoch21, with acc1:0.744774908666017, and acc2:0.7333333333333333
+
+Epoch - 25 Train-Loss : 0.18769434474366295
+
+Epoch - 25 Valid-Loss : 0.886234822622951
+micro_f1_25 = 0.7282828282828283 
+macro_f1_25 = 0.7408265858416938 
+minloss 0.8599381115768225
+just saved the best current model in epoch21, with acc1:0.744774908666017, and acc2:0.7333333333333333
+
+Epoch - 26 Train-Loss : 0.18065602709019696
+
+Epoch - 26 Valid-Loss : 0.868639926305942
+micro_f1_26 = 0.7343434343434343 
+macro_f1_26 = 0.743145328845517 
+minloss 0.8599381115768225
+just saved the best current model in epoch21, with acc1:0.744774908666017, and acc2:0.7333333333333333
+
+Epoch - 27 Train-Loss : 0.17196251825364076
+
+Epoch - 27 Valid-Loss : 0.8371397410218995
+micro_f1_27 = 0.7459595959595959 
+macro_f1_27 = 0.7529583169322722 
+minloss 0.8371397410218995
+just saved the best current model in epoch27, with acc1:0.7529583169322722, and acc2:0.7459595959595959
+
+Epoch - 28 Train-Loss : 0.16157769520424523
+
+Epoch - 28 Valid-Loss : 0.8736119194767408
+micro_f1_28 = 0.7555555555555555 
+macro_f1_28 = 0.7608312828940587 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+
+Epoch - 29 Train-Loss : 0.1504057026612534
+
+Epoch - 29 Valid-Loss : 0.9338114109010466
+micro_f1_29 = 0.7212121212121212 
+macro_f1_29 = 0.7345391663991249 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+
+Epoch - 30 Train-Loss : 0.1482402815277619
+
+Epoch - 30 Valid-Loss : 0.8744895279768014
+micro_f1_30 = 0.7459595959595959 
+macro_f1_30 = 0.7473780236672579 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+
+Epoch - 31 Train-Loss : 0.1367617392823993
+
+Epoch - 31 Valid-Loss : 0.9171861976219882
+micro_f1_31 = 0.7373737373737375 
+macro_f1_31 = 0.7447703964933232 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+
+Epoch - 32 Train-Loss : 0.1261521747137597
+
+Epoch - 32 Valid-Loss : 1.0021299755561255
+micro_f1_32 = 0.7151515151515152 
+macro_f1_32 = 0.7242224668700643 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+
+Epoch - 33 Train-Loss : 0.12541657716058935
+
+Epoch - 33 Valid-Loss : 0.95062674666124
+micro_f1_33 = 0.7287878787878788 
+macro_f1_33 = 0.7359603835973585 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+
+Epoch - 34 Train-Loss : 0.11897045349623346
+
+Epoch - 34 Valid-Loss : 0.9792784022527837
+micro_f1_34 = 0.7202020202020202 
+macro_f1_34 = 0.7358086429809381 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+
+Epoch - 35 Train-Loss : 0.11294332732569642
+
+Epoch - 35 Valid-Loss : 0.9088169630586861
+micro_f1_35 = 0.7404040404040403 
+macro_f1_35 = 0.7497962188944249 
+minloss 0.8371397410218995
+just saved the best current model in epoch28, with acc1:0.7608312828940587, and acc2:0.7555555555555555
+(3, 3)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 3, 4, 6, 7, 8, 9, 10]
+valid_fold:  [5]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.7014087117023957
+
+Epoch - 1 Valid-Loss : 1.390992199253832
+micro_f1_1 = 0.4823717948717949 
+macro_f1_1 = 0.4750431370244995 
+minloss 1.390992199253832
+
+Epoch - 2 Train-Loss : 1.2181085850642277
+
+Epoch - 2 Valid-Loss : 1.0543273009805598
+micro_f1_2 = 0.5753205128205128 
+macro_f1_2 = 0.5752904302845055 
+minloss 1.0543273009805598
+just saved the best current model in epoch2, with acc1:0.5752904302845055, and acc2:0.5753205128205128
+
+Epoch - 3 Train-Loss : 0.9917834369952863
+
+Epoch - 3 Valid-Loss : 0.9239187125976269
+micro_f1_3 = 0.6623931623931624 
+macro_f1_3 = 0.6690873903210577 
+minloss 0.9239187125976269
+just saved the best current model in epoch3, with acc1:0.6690873903210577, and acc2:0.6623931623931624
+
+Epoch - 4 Train-Loss : 0.8479839468002319
+
+Epoch - 4 Valid-Loss : 0.8084434995539168
+micro_f1_4 = 0.7329059829059829 
+macro_f1_4 = 0.7310373951779724 
+minloss 0.8084434995539168
+just saved the best current model in epoch4, with acc1:0.7310373951779724, and acc2:0.7329059829059829
+
+Epoch - 5 Train-Loss : 0.7575885673975333
+
+Epoch - 5 Valid-Loss : 0.7426319513310734
+micro_f1_5 = 0.7542735042735044 
+macro_f1_5 = 0.7557966151773277 
+minloss 0.7426319513310734
+just saved the best current model in epoch5, with acc1:0.7557966151773277, and acc2:0.7542735042735044
+
+Epoch - 6 Train-Loss : 0.6795950801708759
+
+Epoch - 6 Valid-Loss : 0.7344057532584566
+micro_f1_6 = 0.7553418803418802 
+macro_f1_6 = 0.748883857747026 
+minloss 0.7344057532584566
+just saved the best current model in epoch5, with acc1:0.7557966151773277, and acc2:0.7542735042735044
+
+Epoch - 7 Train-Loss : 0.6230094156968288
+
+Epoch - 7 Valid-Loss : 0.7015688919231423
+micro_f1_7 = 0.7943376068376068 
+macro_f1_7 = 0.7908274949249361 
+minloss 0.7015688919231423
+just saved the best current model in epoch7, with acc1:0.7908274949249361, and acc2:0.7943376068376068
+
+Epoch - 8 Train-Loss : 0.5767397692417487
+
+Epoch - 8 Valid-Loss : 0.6806290805594534
+micro_f1_8 = 0.7852564102564104 
+macro_f1_8 = 0.7849744337660644 
+minloss 0.6806290805594534
+just saved the best current model in epoch7, with acc1:0.7908274949249361, and acc2:0.7943376068376068
+
+Epoch - 9 Train-Loss : 0.5329585636884738
+
+Epoch - 9 Valid-Loss : 0.7134054797964219
+micro_f1_9 = 0.7900641025641025 
+macro_f1_9 = 0.7860504265836487 
+minloss 0.6806290805594534
+just saved the best current model in epoch7, with acc1:0.7908274949249361, and acc2:0.7943376068376068
+
+Epoch - 10 Train-Loss : 0.49144199932997046
+
+Epoch - 10 Valid-Loss : 0.6966464625209825
+micro_f1_10 = 0.7879273504273504 
+macro_f1_10 = 0.7844952614233913 
+minloss 0.6806290805594534
+just saved the best current model in epoch7, with acc1:0.7908274949249361, and acc2:0.7943376068376068
+
+Epoch - 11 Train-Loss : 0.4611884279816579
+
+Epoch - 11 Valid-Loss : 0.6797379220589104
+micro_f1_11 = 0.7916666666666666 
+macro_f1_11 = 0.7923393280104336 
+minloss 0.6797379220589104
+just saved the best current model in epoch7, with acc1:0.7908274949249361, and acc2:0.7943376068376068
+
+Epoch - 12 Train-Loss : 0.42976244762921945
+
+Epoch - 12 Valid-Loss : 0.6802815624600292
+micro_f1_12 = 0.8087606837606837 
+macro_f1_12 = 0.8078386704316017 
+minloss 0.6797379220589104
+just saved the best current model in epoch12, with acc1:0.8078386704316017, and acc2:0.8087606837606837
+
+Epoch - 13 Train-Loss : 0.3974013227147934
+
+Epoch - 13 Valid-Loss : 0.665781878062293
+micro_f1_13 = 0.7964743589743589 
+macro_f1_13 = 0.7976465301397191 
+minloss 0.665781878062293
+just saved the best current model in epoch12, with acc1:0.8078386704316017, and acc2:0.8087606837606837
+
+Epoch - 14 Train-Loss : 0.3711982778555308
+
+Epoch - 14 Valid-Loss : 0.669763175277119
+micro_f1_14 = 0.8141025641025641 
+macro_f1_14 = 0.8162377924804964 
+minloss 0.665781878062293
+just saved the best current model in epoch14, with acc1:0.8162377924804964, and acc2:0.8141025641025641
+
+Epoch - 15 Train-Loss : 0.35005195210377377
+
+Epoch - 15 Valid-Loss : 0.6507478983611124
+micro_f1_15 = 0.8157051282051282 
+macro_f1_15 = 0.8147259002956968 
+minloss 0.6507478983611124
+just saved the best current model in epoch15, with acc1:0.8147259002956968, and acc2:0.8157051282051282
+
+Epoch - 16 Train-Loss : 0.3261776714829298
+
+Epoch - 16 Valid-Loss : 0.6860645625135328
+micro_f1_16 = 0.7889957264957265 
+macro_f1_16 = 0.7908208709877347 
+minloss 0.6507478983611124
+just saved the best current model in epoch15, with acc1:0.8147259002956968, and acc2:0.8157051282051282
+
+Epoch - 17 Train-Loss : 0.30684255451537096
+
+Epoch - 17 Valid-Loss : 0.6707297858392072
+micro_f1_17 = 0.7889957264957265 
+macro_f1_17 = 0.7956883727943542 
+minloss 0.6507478983611124
+just saved the best current model in epoch15, with acc1:0.8147259002956968, and acc2:0.8157051282051282
+
+Epoch - 18 Train-Loss : 0.28902696380630516
+
+Epoch - 18 Valid-Loss : 0.6448794226679537
+micro_f1_18 = 0.8028846153846153 
+macro_f1_18 = 0.8016103136502022 
+minloss 0.6448794226679537
+just saved the best current model in epoch15, with acc1:0.8147259002956968, and acc2:0.8157051282051282
+
+Epoch - 19 Train-Loss : 0.27328158610142195
+
+Epoch - 19 Valid-Loss : 0.6595620195675864
+micro_f1_19 = 0.8146367521367521 
+macro_f1_19 = 0.8177523239980855 
+minloss 0.6448794226679537
+just saved the best current model in epoch19, with acc1:0.8177523239980855, and acc2:0.8146367521367521
+
+Epoch - 20 Train-Loss : 0.2559355698755154
+
+Epoch - 20 Valid-Loss : 0.6232966587711604
+micro_f1_20 = 0.8226495726495726 
+macro_f1_20 = 0.824528329411697 
+minloss 0.6232966587711604
+just saved the best current model in epoch20, with acc1:0.824528329411697, and acc2:0.8226495726495726
+
+Epoch - 21 Train-Loss : 0.23839015757808318
+
+Epoch - 21 Valid-Loss : 0.6092136186889858
+micro_f1_21 = 0.8210470085470085 
+macro_f1_21 = 0.8192459431419842 
+minloss 0.6092136186889858
+just saved the best current model in epoch20, with acc1:0.824528329411697, and acc2:0.8226495726495726
+
+Epoch - 22 Train-Loss : 0.22577085285041576
+
+Epoch - 22 Valid-Loss : 0.6417223366502768
+micro_f1_22 = 0.8178418803418803 
+macro_f1_22 = 0.8181765223394356 
+minloss 0.6092136186889858
+just saved the best current model in epoch20, with acc1:0.824528329411697, and acc2:0.8226495726495726
+
+Epoch - 23 Train-Loss : 0.21839718942267772
+
+Epoch - 23 Valid-Loss : 0.6445279745942253
+micro_f1_23 = 0.8076923076923077 
+macro_f1_23 = 0.8088762515842498 
+minloss 0.6092136186889858
+just saved the best current model in epoch20, with acc1:0.824528329411697, and acc2:0.8226495726495726
+
+Epoch - 24 Train-Loss : 0.20322128997208216
+
+Epoch - 24 Valid-Loss : 0.615753030579569
+micro_f1_24 = 0.8279914529914529 
+macro_f1_24 = 0.8288068109512166 
+minloss 0.6092136186889858
+just saved the best current model in epoch24, with acc1:0.8288068109512166, and acc2:0.8279914529914529
+
+Epoch - 25 Train-Loss : 0.19078946182169976
+
+Epoch - 25 Valid-Loss : 0.5822748342353818
+micro_f1_25 = 0.8290598290598291 
+macro_f1_25 = 0.8296231103490026 
+minloss 0.5822748342353818
+just saved the best current model in epoch25, with acc1:0.8296231103490026, and acc2:0.8290598290598291
+
+Epoch - 26 Train-Loss : 0.18335004305992372
+
+Epoch - 26 Valid-Loss : 0.6116541567393857
+micro_f1_26 = 0.813034188034188 
+macro_f1_26 = 0.8155714908372659 
+minloss 0.5822748342353818
+just saved the best current model in epoch25, with acc1:0.8296231103490026, and acc2:0.8290598290598291
+
+Epoch - 27 Train-Loss : 0.17381819425294032
+
+Epoch - 27 Valid-Loss : 0.587506959366047
+micro_f1_27 = 0.8322649572649574 
+macro_f1_27 = 0.8352524004966458 
+minloss 0.5822748342353818
+just saved the best current model in epoch27, with acc1:0.8352524004966458, and acc2:0.8322649572649574
+
+Epoch - 28 Train-Loss : 0.16368296281171915
+
+Epoch - 28 Valid-Loss : 0.6152299052645636
+micro_f1_28 = 0.8221153846153845 
+macro_f1_28 = 0.8281718440364912 
+minloss 0.5822748342353818
+just saved the best current model in epoch27, with acc1:0.8352524004966458, and acc2:0.8322649572649574
+
+Epoch - 29 Train-Loss : 0.15527230628169117
+
+Epoch - 29 Valid-Loss : 0.6293336723445573
+micro_f1_29 = 0.8306623931623933 
+macro_f1_29 = 0.8340803907816925 
+minloss 0.5822748342353818
+just saved the best current model in epoch27, with acc1:0.8352524004966458, and acc2:0.8322649572649574
+
+Epoch - 30 Train-Loss : 0.14946129751654388
+
+Epoch - 30 Valid-Loss : 0.646488724833625
+micro_f1_30 = 0.8231837606837606 
+macro_f1_30 = 0.8259608063527922 
+minloss 0.5822748342353818
+training is terminating so as to prevent further overfitting
+just saved the best current model in epoch27, with acc1:0.8352524004966458, and acc2:0.8322649572649574
+(3, 4)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 3, 4, 5, 7, 8, 9, 10]
+valid_fold:  [6]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.6876411698344262
+
+Epoch - 1 Valid-Loss : 1.5196871074657996
+micro_f1_1 = 0.4647630619684083 
+macro_f1_1 = 0.4834391318729999 
+minloss 1.5196871074657996
+
+Epoch - 2 Train-Loss : 1.2060148579165475
+
+Epoch - 2 Valid-Loss : 1.2287664506041889
+micro_f1_2 = 0.5662211421628189 
+macro_f1_2 = 0.5869330815736973 
+minloss 1.2287664506041889
+just saved the best current model in epoch2, with acc1:0.5869330815736973, and acc2:0.5662211421628189
+
+Epoch - 3 Train-Loss : 0.9752103499503179
+
+Epoch - 3 Valid-Loss : 1.0544223817228113
+micro_f1_3 = 0.6324422843256379 
+macro_f1_3 = 0.6493509616584939 
+minloss 1.0544223817228113
+just saved the best current model in epoch3, with acc1:0.6493509616584939, and acc2:0.6324422843256379
+
+Epoch - 4 Train-Loss : 0.8421878805657127
+
+Epoch - 4 Valid-Loss : 0.9419154750490651
+micro_f1_4 = 0.6737545565006076 
+macro_f1_4 = 0.7003131191307946 
+minloss 0.9419154750490651
+just saved the best current model in epoch4, with acc1:0.7003131191307946, and acc2:0.6737545565006076
+
+Epoch - 5 Train-Loss : 0.7388652126155077
+
+Epoch - 5 Valid-Loss : 0.890179315238323
+micro_f1_5 = 0.6968408262454435 
+macro_f1_5 = 0.7146457801207755 
+minloss 0.890179315238323
+just saved the best current model in epoch5, with acc1:0.7146457801207755, and acc2:0.6968408262454435
+
+Epoch - 6 Train-Loss : 0.6622154081976691
+
+Epoch - 6 Valid-Loss : 0.8687725499706361
+micro_f1_6 = 0.7102065613608749 
+macro_f1_6 = 0.7360613516907092 
+minloss 0.8687725499706361
+just saved the best current model in epoch6, with acc1:0.7360613516907092, and acc2:0.7102065613608749
+
+Epoch - 7 Train-Loss : 0.6034104254838791
+
+Epoch - 7 Valid-Loss : 0.8890261091653583
+micro_f1_7 = 0.7181044957472661 
+macro_f1_7 = 0.736331757808944 
+minloss 0.8687725499706361
+just saved the best current model in epoch7, with acc1:0.736331757808944, and acc2:0.7181044957472661
+
+Epoch - 8 Train-Loss : 0.556936082459376
+
+Epoch - 8 Valid-Loss : 0.9088331756805911
+micro_f1_8 = 0.7150668286755771 
+macro_f1_8 = 0.7388462636267661 
+minloss 0.8687725499706361
+just saved the best current model in epoch7, with acc1:0.736331757808944, and acc2:0.7181044957472661
+
+Epoch - 9 Train-Loss : 0.5194129357444023
+
+Epoch - 9 Valid-Loss : 0.8220722310751387
+micro_f1_9 = 0.7314702308626975 
+macro_f1_9 = 0.7518832727394018 
+minloss 0.8220722310751387
+just saved the best current model in epoch9, with acc1:0.7518832727394018, and acc2:0.7314702308626975
+
+Epoch - 10 Train-Loss : 0.47471773277881535
+
+Epoch - 10 Valid-Loss : 0.8826201249239514
+micro_f1_10 = 0.7290400972053463 
+macro_f1_10 = 0.7542143945297022 
+minloss 0.8220722310751387
+just saved the best current model in epoch9, with acc1:0.7518832727394018, and acc2:0.7314702308626975
+
+Epoch - 11 Train-Loss : 0.4464678169464498
+
+Epoch - 11 Valid-Loss : 0.8370321087032846
+micro_f1_11 = 0.7345078979343865 
+macro_f1_11 = 0.7564770136534776 
+minloss 0.8220722310751387
+just saved the best current model in epoch11, with acc1:0.7564770136534776, and acc2:0.7345078979343865
+
+Epoch - 12 Train-Loss : 0.4200818548195584
+
+Epoch - 12 Valid-Loss : 0.8415399823807975
+micro_f1_12 = 0.7375455650060754 
+macro_f1_12 = 0.7574613645972635 
+minloss 0.8220722310751387
+just saved the best current model in epoch12, with acc1:0.7574613645972635, and acc2:0.7375455650060754
+
+Epoch - 13 Train-Loss : 0.39058881416479907
+
+Epoch - 13 Valid-Loss : 0.849662261680492
+micro_f1_13 = 0.7533414337788579 
+macro_f1_13 = 0.7678763367934632 
+minloss 0.8220722310751387
+just saved the best current model in epoch13, with acc1:0.7678763367934632, and acc2:0.7533414337788579
+
+Epoch - 14 Train-Loss : 0.3646516618709653
+
+Epoch - 14 Valid-Loss : 0.886893257788084
+micro_f1_14 = 0.7363304981773997 
+macro_f1_14 = 0.755042310788746 
+minloss 0.8220722310751387
+training is terminating so as to prevent further overfitting
+just saved the best current model in epoch13, with acc1:0.7678763367934632, and acc2:0.7533414337788579
+(3, 5)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 3, 4, 5, 6, 8, 9, 10]
+valid_fold:  [7]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.69553027852328
+
+Epoch - 1 Valid-Loss : 1.450364330836705
+micro_f1_1 = 0.4946300715990454 
+macro_f1_1 = 0.49440645269973144 
+minloss 1.450364330836705
+
+Epoch - 2 Train-Loss : 1.2037928129160416
+
+Epoch - 2 Valid-Loss : 1.1575360652946292
+micro_f1_2 = 0.5769689737470167 
+macro_f1_2 = 0.5850791219817333 
+minloss 1.1575360652946292
+just saved the best current model in epoch2, with acc1:0.5850791219817333, and acc2:0.5769689737470167
+
+Epoch - 3 Train-Loss : 0.9642741932876204
+
+Epoch - 3 Valid-Loss : 1.1068910113402775
+micro_f1_3 = 0.5865155131264916 
+macro_f1_3 = 0.6109027495031365 
+minloss 1.1068910113402775
+just saved the best current model in epoch3, with acc1:0.6109027495031365, and acc2:0.5865155131264916
+
+Epoch - 4 Train-Loss : 0.8310714222135998
+
+Epoch - 4 Valid-Loss : 1.0220819816702889
+micro_f1_4 = 0.6312649164677804 
+macro_f1_4 = 0.6438779274419775 
+minloss 1.0220819816702889
+just saved the best current model in epoch4, with acc1:0.6438779274419775, and acc2:0.6312649164677804
+
+Epoch - 5 Train-Loss : 0.7362615063922383
+
+Epoch - 5 Valid-Loss : 1.0133149291787829
+micro_f1_5 = 0.6133651551312649 
+macro_f1_5 = 0.6206387048398201 
+minloss 1.0133149291787829
+just saved the best current model in epoch4, with acc1:0.6438779274419775, and acc2:0.6312649164677804
+
+Epoch - 6 Train-Loss : 0.6618250078675474
+
+Epoch - 6 Valid-Loss : 0.912534780445553
+micro_f1_6 = 0.6503579952267303 
+macro_f1_6 = 0.6712109707092738 
+minloss 0.912534780445553
+just saved the best current model in epoch6, with acc1:0.6712109707092738, and acc2:0.6503579952267303
+
+Epoch - 7 Train-Loss : 0.6118439201646784
+
+Epoch - 7 Valid-Loss : 0.9484629135756265
+micro_f1_7 = 0.6676610978520287 
+macro_f1_7 = 0.6770701678055013 
+minloss 0.912534780445553
+just saved the best current model in epoch7, with acc1:0.6770701678055013, and acc2:0.6676610978520287
+
+Epoch - 8 Train-Loss : 0.5602367081374624
+
+Epoch - 8 Valid-Loss : 0.910493517773492
+micro_f1_8 = 0.6772076372315036 
+macro_f1_8 = 0.6897939453110207 
+minloss 0.910493517773492
+just saved the best current model in epoch8, with acc1:0.6897939453110207, and acc2:0.6772076372315036
+
+Epoch - 9 Train-Loss : 0.5191026836739364
+
+Epoch - 9 Valid-Loss : 0.9312653428032285
+micro_f1_9 = 0.6700477326968973 
+macro_f1_9 = 0.6798845401722767 
+minloss 0.910493517773492
+just saved the best current model in epoch8, with acc1:0.6897939453110207, and acc2:0.6772076372315036
+
+Epoch - 10 Train-Loss : 0.48317174796909546
+
+Epoch - 10 Valid-Loss : 0.8974440022593453
+micro_f1_10 = 0.6664677804295943 
+macro_f1_10 = 0.6866339984165061 
+minloss 0.8974440022593453
+just saved the best current model in epoch8, with acc1:0.6897939453110207, and acc2:0.6772076372315036
+
+Epoch - 11 Train-Loss : 0.44752167843908763
+
+Epoch - 11 Valid-Loss : 0.8971531103054683
+micro_f1_11 = 0.6927207637231504 
+macro_f1_11 = 0.7074626833218554 
+minloss 0.8971531103054683
+just saved the best current model in epoch11, with acc1:0.7074626833218554, and acc2:0.6927207637231504
+
+Epoch - 12 Train-Loss : 0.41953206883616967
+
+Epoch - 12 Valid-Loss : 0.8676254749298096
+micro_f1_12 = 0.7171837708830548 
+macro_f1_12 = 0.7229732066130486 
+minloss 0.8676254749298096
+just saved the best current model in epoch12, with acc1:0.7229732066130486, and acc2:0.7171837708830548
+
+Epoch - 13 Train-Loss : 0.39237626906948614
+
+Epoch - 13 Valid-Loss : 0.9118503508113679
+micro_f1_13 = 0.6903341288782816 
+macro_f1_13 = 0.6937963511167946 
+minloss 0.8676254749298096
+just saved the best current model in epoch12, with acc1:0.7229732066130486, and acc2:0.7171837708830548
+
+Epoch - 14 Train-Loss : 0.36353607588988307
+
+Epoch - 14 Valid-Loss : 0.8856371703602018
+micro_f1_14 = 0.7195704057279235 
+macro_f1_14 = 0.726275343603137 
+minloss 0.8676254749298096
+just saved the best current model in epoch14, with acc1:0.726275343603137, and acc2:0.7195704057279235
+
+Epoch - 15 Train-Loss : 0.34389843674340753
+
+Epoch - 15 Valid-Loss : 0.910358464717865
+micro_f1_15 = 0.6825775656324582 
+macro_f1_15 = 0.6906459377845752 
+minloss 0.8676254749298096
+just saved the best current model in epoch14, with acc1:0.726275343603137, and acc2:0.7195704057279235
+
+Epoch - 16 Train-Loss : 0.32148820111997944
+
+Epoch - 16 Valid-Loss : 0.8817913069611504
+micro_f1_16 = 0.7124105011933174 
+macro_f1_16 = 0.718864678277154 
+minloss 0.8676254749298096
+just saved the best current model in epoch14, with acc1:0.726275343603137, and acc2:0.7195704057279235
+
+Epoch - 17 Train-Loss : 0.3019185872086094
+
+Epoch - 17 Valid-Loss : 0.9035820559376762
+micro_f1_17 = 0.7195704057279235 
+macro_f1_17 = 0.7254784692331018 
+minloss 0.8676254749298096
+just saved the best current model in epoch14, with acc1:0.726275343603137, and acc2:0.7195704057279235
+
+Epoch - 18 Train-Loss : 0.2846813826145191
+
+Epoch - 18 Valid-Loss : 0.8960911664224807
+micro_f1_18 = 0.7201670644391407 
+macro_f1_18 = 0.7231518979145755 
+minloss 0.8676254749298096
+just saved the best current model in epoch14, with acc1:0.726275343603137, and acc2:0.7195704057279235
+
+Epoch - 19 Train-Loss : 0.26991927878517874
+
+Epoch - 19 Valid-Loss : 0.9491661948817117
+micro_f1_19 = 0.7219570405727923 
+macro_f1_19 = 0.7203003732960834 
+minloss 0.8676254749298096
+just saved the best current model in epoch14, with acc1:0.726275343603137, and acc2:0.7195704057279235
+
+Epoch - 20 Train-Loss : 0.25938094113675053
+
+Epoch - 20 Valid-Loss : 0.9516932151147297
+micro_f1_20 = 0.7034606205250596 
+macro_f1_20 = 0.7075317905356855 
+minloss 0.8676254749298096
+just saved the best current model in epoch14, with acc1:0.726275343603137, and acc2:0.7195704057279235
+
+Epoch - 21 Train-Loss : 0.24164581423570622
+
+Epoch - 21 Valid-Loss : 0.933149803394363
+micro_f1_21 = 0.7344868735083532 
+macro_f1_21 = 0.7373718616557684 
+minloss 0.8676254749298096
+just saved the best current model in epoch21, with acc1:0.7373718616557684, and acc2:0.7344868735083532
+
+Epoch - 22 Train-Loss : 0.2249684891047328
+
+Epoch - 22 Valid-Loss : 0.9632413695255916
+micro_f1_22 = 0.7004773269689738 
+macro_f1_22 = 0.7025126345996584 
+minloss 0.8676254749298096
+just saved the best current model in epoch21, with acc1:0.7373718616557684, and acc2:0.7344868735083532
+
+Epoch - 23 Train-Loss : 0.2168172319318718
+
+Epoch - 23 Valid-Loss : 0.9527629794819015
+micro_f1_23 = 0.6986873508353222 
+macro_f1_23 = 0.6958856243123088 
+minloss 0.8676254749298096
+just saved the best current model in epoch21, with acc1:0.7373718616557684, and acc2:0.7344868735083532
+
+Epoch - 24 Train-Loss : 0.20541562099507968
+
+Epoch - 24 Valid-Loss : 0.9719705285060973
+micro_f1_24 = 0.704653937947494 
+macro_f1_24 = 0.711800985739715 
+minloss 0.8676254749298096
+just saved the best current model in epoch21, with acc1:0.7373718616557684, and acc2:0.7344868735083532
+
+Epoch - 25 Train-Loss : 0.18952757282618513
+
+Epoch - 25 Valid-Loss : 0.9927442126330875
+micro_f1_25 = 0.6939140811455847 
+macro_f1_25 = 0.7035500762283836 
+minloss 0.8676254749298096
+just saved the best current model in epoch21, with acc1:0.7373718616557684, and acc2:0.7344868735083532
+
+Epoch - 26 Train-Loss : 0.17845134749884028
+
+Epoch - 26 Valid-Loss : 1.1255679730858121
+micro_f1_26 = 0.7016706443914081 
+macro_f1_26 = 0.7081095041284309 
+minloss 0.8676254749298096
+training is terminating so as to prevent further overfitting
+just saved the best current model in epoch21, with acc1:0.7373718616557684, and acc2:0.7344868735083532
+(3, 6)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 3, 4, 5, 6, 7, 9, 10]
+valid_fold:  [8]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.702372101974776
+
+Epoch - 1 Valid-Loss : 1.4639195121160828
+micro_f1_1 = 0.4596774193548387 
+macro_f1_1 = 0.46479573955501596 
+minloss 1.4639195121160828
+
+Epoch - 2 Train-Loss : 1.2065846536883673
+
+Epoch - 2 Valid-Loss : 1.2558273791086556
+micro_f1_2 = 0.5421836228287841 
+macro_f1_2 = 0.5769387937996253 
+minloss 1.2558273791086556
+just saved the best current model in epoch2, with acc1:0.5769387937996253, and acc2:0.5421836228287841
+
+Epoch - 3 Train-Loss : 0.9641671885335
+
+Epoch - 3 Valid-Loss : 1.2615063644871853
+micro_f1_3 = 0.5725806451612904 
+macro_f1_3 = 0.6017452271666073 
+minloss 1.2558273791086556
+just saved the best current model in epoch3, with acc1:0.6017452271666073, and acc2:0.5725806451612904
+
+Epoch - 4 Train-Loss : 0.8227602228386972
+
+Epoch - 4 Valid-Loss : 1.1808555137993086
+micro_f1_4 = 0.6029776674937966 
+macro_f1_4 = 0.6159976241239662 
+minloss 1.1808555137993086
+just saved the best current model in epoch4, with acc1:0.6159976241239662, and acc2:0.6029776674937966
+
+Epoch - 5 Train-Loss : 0.7238479108370156
+
+Epoch - 5 Valid-Loss : 1.133829377665378
+micro_f1_5 = 0.6054590570719603 
+macro_f1_5 = 0.6357220365918025 
+minloss 1.133829377665378
+just saved the best current model in epoch5, with acc1:0.6357220365918025, and acc2:0.6054590570719603
+
+Epoch - 6 Train-Loss : 0.6524265583691033
+
+Epoch - 6 Valid-Loss : 1.061650481407005
+micro_f1_6 = 0.6935483870967742 
+macro_f1_6 = 0.7231605435135087 
+minloss 1.061650481407005
+just saved the best current model in epoch6, with acc1:0.7231605435135087, and acc2:0.6935483870967742
+
+Epoch - 7 Train-Loss : 0.5970996558350463
+
+Epoch - 7 Valid-Loss : 1.1257830948227703
+micro_f1_7 = 0.6333746898263027 
+macro_f1_7 = 0.6540538113903522 
+minloss 1.061650481407005
+just saved the best current model in epoch6, with acc1:0.7231605435135087, and acc2:0.6935483870967742
+
+Epoch - 8 Train-Loss : 0.54620843490456
+
+Epoch - 8 Valid-Loss : 1.1509735519343083
+micro_f1_8 = 0.6867245657568238 
+macro_f1_8 = 0.7108735835805459 
+minloss 1.061650481407005
+just saved the best current model in epoch6, with acc1:0.7231605435135087, and acc2:0.6935483870967742
+
+Epoch - 9 Train-Loss : 0.5091195182666167
+
+Epoch - 9 Valid-Loss : 1.095333634995588
+micro_f1_9 = 0.7003722084367245 
+macro_f1_9 = 0.7260192045700273 
+minloss 1.061650481407005
+just saved the best current model in epoch9, with acc1:0.7260192045700273, and acc2:0.7003722084367245
+
+Epoch - 10 Train-Loss : 0.46386846634592227
+
+Epoch - 10 Valid-Loss : 1.1676220905662764
+micro_f1_10 = 0.6972704714640199 
+macro_f1_10 = 0.7196878039381926 
+minloss 1.061650481407005
+just saved the best current model in epoch9, with acc1:0.7260192045700273, and acc2:0.7003722084367245
+
+Epoch - 11 Train-Loss : 0.43080085729494105
+
+Epoch - 11 Valid-Loss : 1.0427967660350375
+micro_f1_11 = 0.7264267990074442 
+macro_f1_11 = 0.7493206836418792 
+minloss 1.0427967660350375
+just saved the best current model in epoch11, with acc1:0.7493206836418792, and acc2:0.7264267990074442
+
+Epoch - 12 Train-Loss : 0.39848579528368444
+
+Epoch - 12 Valid-Loss : 1.1284620823836562
+micro_f1_12 = 0.7220843672456575 
+macro_f1_12 = 0.7441220385121493 
+minloss 1.0427967660350375
+just saved the best current model in epoch11, with acc1:0.7493206836418792, and acc2:0.7264267990074442
+
+Epoch - 13 Train-Loss : 0.37413377053171065
+
+Epoch - 13 Valid-Loss : 1.188212941041087
+micro_f1_13 = 0.6904466501240695 
+macro_f1_13 = 0.7144965519190913 
+minloss 1.0427967660350375
+just saved the best current model in epoch11, with acc1:0.7493206836418792, and acc2:0.7264267990074442
+
+Epoch - 14 Train-Loss : 0.35132798594991205
+
+Epoch - 14 Valid-Loss : 1.089203279576089
+micro_f1_14 = 0.7326302729528537 
+macro_f1_14 = 0.7607353852672946 
+minloss 1.0427967660350375
+just saved the best current model in epoch14, with acc1:0.7607353852672946, and acc2:0.7326302729528537
+
+Epoch - 15 Train-Loss : 0.3218379721616881
+
+Epoch - 15 Valid-Loss : 1.1352921869642665
+micro_f1_15 = 0.738213399503722 
+macro_f1_15 = 0.7566194573969759 
+minloss 1.0427967660350375
+just saved the best current model in epoch15, with acc1:0.7566194573969759, and acc2:0.738213399503722
+
+Epoch - 16 Train-Loss : 0.30592194535627615
+
+Epoch - 16 Valid-Loss : 1.1269808968916388
+micro_f1_16 = 0.7363523573200993 
+macro_f1_16 = 0.7574994913062085 
+minloss 1.0427967660350375
+just saved the best current model in epoch15, with acc1:0.7566194573969759, and acc2:0.738213399503722
+
+Epoch - 17 Train-Loss : 0.28460073346266473
+
+Epoch - 17 Valid-Loss : 1.2684871970426919
+micro_f1_17 = 0.7369727047146402 
+macro_f1_17 = 0.7572956059202037 
+minloss 1.0427967660350375
+just saved the best current model in epoch15, with acc1:0.7566194573969759, and acc2:0.738213399503722
+
+Epoch - 18 Train-Loss : 0.27174166415176165
+
+Epoch - 18 Valid-Loss : 1.239892350011828
+micro_f1_18 = 0.7357320099255583 
+macro_f1_18 = 0.7520045604042845 
+minloss 1.0427967660350375
+just saved the best current model in epoch15, with acc1:0.7566194573969759, and acc2:0.738213399503722
+
+Epoch - 19 Train-Loss : 0.2496560415164704
+
+Epoch - 19 Valid-Loss : 1.1706889312308613
+micro_f1_19 = 0.7475186104218362 
+macro_f1_19 = 0.7646408527904274 
+minloss 1.0427967660350375
+just saved the best current model in epoch19, with acc1:0.7646408527904274, and acc2:0.7475186104218362
+
+Epoch - 20 Train-Loss : 0.238028818226441
+
+Epoch - 20 Valid-Loss : 1.1180924724160444
+micro_f1_20 = 0.7208436724565758 
+macro_f1_20 = 0.7460577649806501 
+minloss 1.0427967660350375
+just saved the best current model in epoch19, with acc1:0.7646408527904274, and acc2:0.7475186104218362
+
+Epoch - 21 Train-Loss : 0.22451274377772232
+
+Epoch - 21 Valid-Loss : 1.147644915996064
+micro_f1_21 = 0.7338709677419355 
+macro_f1_21 = 0.7561952621134587 
+minloss 1.0427967660350375
+just saved the best current model in epoch19, with acc1:0.7646408527904274, and acc2:0.7475186104218362
+
+Epoch - 22 Train-Loss : 0.20928876201023547
+
+Epoch - 22 Valid-Loss : 1.175722277843126
+micro_f1_22 = 0.7344913151364765 
+macro_f1_22 = 0.7564089370523827 
+minloss 1.0427967660350375
+just saved the best current model in epoch19, with acc1:0.7646408527904274, and acc2:0.7475186104218362
+
+Epoch - 23 Train-Loss : 0.20011907731728887
+
+Epoch - 23 Valid-Loss : 1.156948248477708
+micro_f1_23 = 0.7419354838709677 
+macro_f1_23 = 0.7618993700450793 
+minloss 1.0427967660350375
+just saved the best current model in epoch19, with acc1:0.7646408527904274, and acc2:0.7475186104218362
+
+Epoch - 24 Train-Loss : 0.18662057518789885
+
+Epoch - 24 Valid-Loss : 1.301673772440541
+micro_f1_24 = 0.7475186104218362 
+macro_f1_24 = 0.7666893939755535 
+minloss 1.0427967660350375
+just saved the best current model in epoch24, with acc1:0.7666893939755535, and acc2:0.7475186104218362
+
+Epoch - 25 Train-Loss : 0.17602396559056674
+
+Epoch - 25 Valid-Loss : 1.3511615185583434
+micro_f1_25 = 0.7258064516129032 
+macro_f1_25 = 0.7462816981275342 
+minloss 1.0427967660350375
+just saved the best current model in epoch24, with acc1:0.7666893939755535, and acc2:0.7475186104218362
+
+Epoch - 26 Train-Loss : 0.1680848965257797
+
+Epoch - 26 Valid-Loss : 1.5786083515682765
+micro_f1_26 = 0.7220843672456575 
+macro_f1_26 = 0.7438750749886631 
+minloss 1.0427967660350375
+training is terminating so as to prevent further overfitting
+just saved the best current model in epoch24, with acc1:0.7666893939755535, and acc2:0.7475186104218362
+(3, 7)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 3, 4, 5, 6, 7, 8, 10]
+valid_fold:  [9]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.7011801915337341
+
+Epoch - 1 Valid-Loss : 1.2850920008678062
+micro_f1_1 = 0.5049019607843137 
+macro_f1_1 = 0.4864878582030072 
+minloss 1.2850920008678062
+
+Epoch - 2 Train-Loss : 1.2100242116836586
+
+Epoch - 2 Valid-Loss : 1.0255211527441062
+micro_f1_2 = 0.6317401960784313 
+macro_f1_2 = 0.6303757109200716 
+minloss 1.0255211527441062
+just saved the best current model in epoch2, with acc1:0.6303757109200716, and acc2:0.6317401960784313
+
+Epoch - 3 Train-Loss : 0.9698309122612983
+
+Epoch - 3 Valid-Loss : 1.0045158286012856
+micro_f1_3 = 0.6678921568627451 
+macro_f1_3 = 0.656840201216154 
+minloss 1.0045158286012856
+just saved the best current model in epoch3, with acc1:0.656840201216154, and acc2:0.6678921568627451
+
+Epoch - 4 Train-Loss : 0.8324357968388182
+
+Epoch - 4 Valid-Loss : 0.9268979428737771
+micro_f1_4 = 0.6973039215686274 
+macro_f1_4 = 0.6898307846817096 
+minloss 0.9268979428737771
+just saved the best current model in epoch4, with acc1:0.6898307846817096, and acc2:0.6973039215686274
+
+Epoch - 5 Train-Loss : 0.7364295678006278
+
+Epoch - 5 Valid-Loss : 0.8522518524060062
+micro_f1_5 = 0.7132352941176471 
+macro_f1_5 = 0.7122228188012529 
+minloss 0.8522518524060062
+just saved the best current model in epoch5, with acc1:0.7122228188012529, and acc2:0.7132352941176471
+
+Epoch - 6 Train-Loss : 0.6664164998916664
+
+Epoch - 6 Valid-Loss : 0.8679111301898956
+micro_f1_6 = 0.7077205882352942 
+macro_f1_6 = 0.7041524129282921 
+minloss 0.8522518524060062
+just saved the best current model in epoch5, with acc1:0.7122228188012529, and acc2:0.7132352941176471
+
+Epoch - 7 Train-Loss : 0.6076973647029713
+
+Epoch - 7 Valid-Loss : 0.8478909352538633
+micro_f1_7 = 0.7279411764705882 
+macro_f1_7 = 0.7158571454419499 
+minloss 0.8478909352538633
+just saved the best current model in epoch7, with acc1:0.7158571454419499, and acc2:0.7279411764705882
+
+Epoch - 8 Train-Loss : 0.5583218151120224
+
+Epoch - 8 Valid-Loss : 0.8465542430240734
+micro_f1_8 = 0.7334558823529411 
+macro_f1_8 = 0.726733313661277 
+minloss 0.8465542430240734
+just saved the best current model in epoch8, with acc1:0.726733313661277, and acc2:0.7334558823529411
+
+Epoch - 9 Train-Loss : 0.5157230747393285
+
+Epoch - 9 Valid-Loss : 0.756934862364741
+micro_f1_9 = 0.7542892156862745 
+macro_f1_9 = 0.748086474660652 
+minloss 0.756934862364741
+just saved the best current model in epoch9, with acc1:0.748086474660652, and acc2:0.7542892156862745
+
+Epoch - 10 Train-Loss : 0.4769328520755575
+
+Epoch - 10 Valid-Loss : 0.7795441478271695
+micro_f1_10 = 0.7438725490196078 
+macro_f1_10 = 0.7352852115506648 
+minloss 0.756934862364741
+just saved the best current model in epoch9, with acc1:0.748086474660652, and acc2:0.7542892156862745
+
+Epoch - 11 Train-Loss : 0.44222926468861223
+
+Epoch - 11 Valid-Loss : 0.6669697554818556
+micro_f1_11 = 0.7879901960784313 
+macro_f1_11 = 0.7854210959518441 
+minloss 0.6669697554818556
+just saved the best current model in epoch11, with acc1:0.7854210959518441, and acc2:0.7879901960784313
+
+Epoch - 12 Train-Loss : 0.41796126756252666
+
+Epoch - 12 Valid-Loss : 0.6990217332381243
+micro_f1_12 = 0.7732843137254902 
+macro_f1_12 = 0.7718578241501453 
+minloss 0.6669697554818556
+just saved the best current model in epoch11, with acc1:0.7854210959518441, and acc2:0.7879901960784313
+
+Epoch - 13 Train-Loss : 0.38871946390530077
+
+Epoch - 13 Valid-Loss : 0.6296087551460254
+micro_f1_13 = 0.7996323529411765 
+macro_f1_13 = 0.7981335030220582 
+minloss 0.6296087551460254
+just saved the best current model in epoch13, with acc1:0.7981335030220582, and acc2:0.7996323529411765
+
+Epoch - 14 Train-Loss : 0.3669900628578181
+
+Epoch - 14 Valid-Loss : 0.7083042249740923
+micro_f1_14 = 0.7745098039215687 
+macro_f1_14 = 0.766226451484777 
+minloss 0.6296087551460254
+just saved the best current model in epoch13, with acc1:0.7981335030220582, and acc2:0.7996323529411765
+
+Epoch - 15 Train-Loss : 0.3405163905423398
+
+Epoch - 15 Valid-Loss : 0.6957945334268552
+micro_f1_15 = 0.7763480392156863 
+macro_f1_15 = 0.768962709262033 
+minloss 0.6296087551460254
+just saved the best current model in epoch13, with acc1:0.7981335030220582, and acc2:0.7996323529411765
+
+Epoch - 16 Train-Loss : 0.3240524748622468
+
+Epoch - 16 Valid-Loss : 0.6720938136545467
+micro_f1_16 = 0.7916666666666666 
+macro_f1_16 = 0.7891429326069848 
+minloss 0.6296087551460254
+just saved the best current model in epoch13, with acc1:0.7981335030220582, and acc2:0.7996323529411765
+
+Epoch - 17 Train-Loss : 0.3032206990652614
+
+Epoch - 17 Valid-Loss : 0.6498841806406191
+micro_f1_17 = 0.797794117647059 
+macro_f1_17 = 0.7923348627997104 
+minloss 0.6296087551460254
+just saved the best current model in epoch13, with acc1:0.7981335030220582, and acc2:0.7996323529411765
+
+Epoch - 18 Train-Loss : 0.282639767884305
+
+Epoch - 18 Valid-Loss : 0.6998253814675206
+micro_f1_18 = 0.7953431372549019 
+macro_f1_18 = 0.7868076586605122 
+minloss 0.6296087551460254
+just saved the best current model in epoch13, with acc1:0.7981335030220582, and acc2:0.7996323529411765
+
+Epoch - 19 Train-Loss : 0.26734910644779003
+
+Epoch - 19 Valid-Loss : 0.6321000907131854
+micro_f1_19 = 0.8057598039215688 
+macro_f1_19 = 0.8021258350515008 
+minloss 0.6296087551460254
+just saved the best current model in epoch19, with acc1:0.8021258350515008, and acc2:0.8057598039215688
+
+Epoch - 20 Train-Loss : 0.2528431183235212
+
+Epoch - 20 Valid-Loss : 0.6456341719820949
+micro_f1_20 = 0.8125 
+macro_f1_20 = 0.8159686350171634 
+minloss 0.6296087551460254
+just saved the best current model in epoch20, with acc1:0.8159686350171634, and acc2:0.8125
+
+Epoch - 21 Train-Loss : 0.23270040412217077
+
+Epoch - 21 Valid-Loss : 0.6372274776336317
+micro_f1_21 = 0.8143382352941176 
+macro_f1_21 = 0.8215295138596866 
+minloss 0.6296087551460254
+just saved the best current model in epoch21, with acc1:0.8215295138596866, and acc2:0.8143382352941176
+
+Epoch - 22 Train-Loss : 0.2218973301238183
+
+Epoch - 22 Valid-Loss : 0.6355869006365538
+micro_f1_22 = 0.8204656862745098 
+macro_f1_22 = 0.8254899521007584 
+minloss 0.6296087551460254
+just saved the best current model in epoch22, with acc1:0.8254899521007584, and acc2:0.8204656862745098
+
+Epoch - 23 Train-Loss : 0.208431236856062
+
+Epoch - 23 Valid-Loss : 0.5867400500905134
+micro_f1_23 = 0.8370098039215687 
+macro_f1_23 = 0.8475809073108582 
+minloss 0.5867400500905134
+just saved the best current model in epoch23, with acc1:0.8475809073108582, and acc2:0.8370098039215687
+
+Epoch - 24 Train-Loss : 0.20111097524300067
+
+Epoch - 24 Valid-Loss : 0.6323784560275575
+micro_f1_24 = 0.8192401960784313 
+macro_f1_24 = 0.8297503093553681 
+minloss 0.5867400500905134
+just saved the best current model in epoch23, with acc1:0.8475809073108582, and acc2:0.8370098039215687
+
+Epoch - 25 Train-Loss : 0.19369965359530966
+
+Epoch - 25 Valid-Loss : 0.6709637828536478
+micro_f1_25 = 0.8400735294117647 
+macro_f1_25 = 0.8478987386136314 
+minloss 0.5867400500905134
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 26 Train-Loss : 0.16931987325613848
+
+Epoch - 26 Valid-Loss : 0.6168020871130055
+micro_f1_26 = 0.8253676470588235 
+macro_f1_26 = 0.8354466729222784 
+minloss 0.5867400500905134
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 27 Train-Loss : 0.16720209763281876
+
+Epoch - 27 Valid-Loss : 0.7575489386423108
+micro_f1_27 = 0.8033088235294118 
+macro_f1_27 = 0.8141142764866496 
+minloss 0.5867400500905134
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 28 Train-Loss : 0.1610110989856449
+
+Epoch - 28 Valid-Loss : 0.5824788780335117
+micro_f1_28 = 0.8357843137254903 
+macro_f1_28 = 0.8489621554723159 
+minloss 0.5824788780335117
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 29 Train-Loss : 0.14864396860522003
+
+Epoch - 29 Valid-Loss : 0.6974878059289253
+micro_f1_29 = 0.8272058823529412 
+macro_f1_29 = 0.8377954117503774 
+minloss 0.5824788780335117
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 30 Train-Loss : 0.14179844972630493
+
+Epoch - 30 Valid-Loss : 0.6009762519308567
+micro_f1_30 = 0.835171568627451 
+macro_f1_30 = 0.8456611589404386 
+minloss 0.5824788780335117
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 31 Train-Loss : 0.1309223878159743
+
+Epoch - 31 Valid-Loss : 0.6732561568314136
+micro_f1_31 = 0.8327205882352942 
+macro_f1_31 = 0.8434931173693027 
+minloss 0.5824788780335117
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 32 Train-Loss : 0.12881202716756648
+
+Epoch - 32 Valid-Loss : 0.5714353643102097
+micro_f1_32 = 0.8339460784313726 
+macro_f1_32 = 0.8471907958046019 
+minloss 0.5714353643102097
+just saved the best current model in epoch25, with acc1:0.8478987386136314, and acc2:0.8400735294117647
+
+Epoch - 33 Train-Loss : 0.12069842720338417
+
+Epoch - 33 Valid-Loss : 0.6576178701795345
+micro_f1_33 = 0.8449754901960785 
+macro_f1_33 = 0.8557657149787987 
+minloss 0.5714353643102097
+just saved the best current model in epoch33, with acc1:0.8557657149787987, and acc2:0.8449754901960785
+
+Epoch - 34 Train-Loss : 0.11541421712150401
+
+Epoch - 34 Valid-Loss : 0.6533626996930323
+micro_f1_34 = 0.821078431372549 
+macro_f1_34 = 0.8342214087259323 
+minloss 0.5714353643102097
+just saved the best current model in epoch33, with acc1:0.8557657149787987, and acc2:0.8449754901960785
+
+Epoch - 35 Train-Loss : 0.10935155938172506
+
+Epoch - 35 Valid-Loss : 0.7009229760151356
+micro_f1_35 = 0.8296568627450981 
+macro_f1_35 = 0.8415731869293298 
+minloss 0.5714353643102097
+just saved the best current model in epoch33, with acc1:0.8557657149787987, and acc2:0.8449754901960785
+(3, 8)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [1, 2, 3, 4, 5, 6, 7, 8, 9]
+valid_fold:  [10]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_S2Dcnn5 initialized with total : 2659130 parameters.
+ learning_rate = 1e-05, epochs = 35
+ epochs = 35
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 1.7071546601790184
+
+Epoch - 1 Valid-Loss : 1.3547135602860223
+micro_f1_1 = 0.5101553166069295 
+macro_f1_1 = 0.4916838383169835 
+minloss 1.3547135602860223
+just saved the best current model in epoch1, with acc1:0.4916838383169835, and acc2:0.5101553166069295
+
+Epoch - 2 Train-Loss : 1.20123437297622
+
+Epoch - 2 Valid-Loss : 1.0724017245428903
+micro_f1_2 = 0.6248506571087217 
+macro_f1_2 = 0.6157899853472898 
+minloss 1.0724017245428903
+just saved the best current model in epoch2, with acc1:0.6157899853472898, and acc2:0.6248506571087217
+
+Epoch - 3 Train-Loss : 0.9604233047097408
+
+Epoch - 3 Valid-Loss : 0.9522171629326684
+micro_f1_3 = 0.6941457586618877 
+macro_f1_3 = 0.6996278735936797 
+minloss 0.9522171629326684
+just saved the best current model in epoch3, with acc1:0.6996278735936797, and acc2:0.6941457586618877
+
+Epoch - 4 Train-Loss : 0.8353457328275586
+
+Epoch - 4 Valid-Loss : 0.9074779811359587
+micro_f1_4 = 0.7455197132616488 
+macro_f1_4 = 0.7563804808062711 
+minloss 0.9074779811359587
+just saved the best current model in epoch4, with acc1:0.7563804808062711, and acc2:0.7455197132616488
+
+Epoch - 5 Train-Loss : 0.7429950455733949
+
+Epoch - 5 Valid-Loss : 0.8595666757651738
+micro_f1_5 = 0.7735961768219832 
+macro_f1_5 = 0.7790368177227984 
+minloss 0.8595666757651738
+just saved the best current model in epoch5, with acc1:0.7790368177227984, and acc2:0.7735961768219832
+
+Epoch - 6 Train-Loss : 0.6759159511074107
+
+Epoch - 6 Valid-Loss : 0.7830670226897513
+micro_f1_6 = 0.7831541218637993 
+macro_f1_6 = 0.7907731398514577 
+minloss 0.7830670226897513
+just saved the best current model in epoch6, with acc1:0.7907731398514577, and acc2:0.7831541218637993
+
+Epoch - 7 Train-Loss : 0.6150217532749234
+
+Epoch - 7 Valid-Loss : 0.7662009132759912
+micro_f1_7 = 0.7652329749103943 
+macro_f1_7 = 0.7764424153095495 
+minloss 0.7662009132759912
+just saved the best current model in epoch6, with acc1:0.7907731398514577, and acc2:0.7831541218637993
+
+Epoch - 8 Train-Loss : 0.5715281440071542
+
+Epoch - 8 Valid-Loss : 0.805488547044141
+micro_f1_8 = 0.7855436081242533 
+macro_f1_8 = 0.7956267009968536 
+minloss 0.7662009132759912
+just saved the best current model in epoch8, with acc1:0.7956267009968536, and acc2:0.7855436081242533
+
+Epoch - 9 Train-Loss : 0.5238849607342524
+
+Epoch - 9 Valid-Loss : 0.7621223654065813
+micro_f1_9 = 0.7956989247311826 
+macro_f1_9 = 0.8072041430755622 
+minloss 0.7621223654065813
+just saved the best current model in epoch9, with acc1:0.8072041430755622, and acc2:0.7956989247311826
+
+Epoch - 10 Train-Loss : 0.48266199148866784
+
+Epoch - 10 Valid-Loss : 0.7047801958663124
+micro_f1_10 = 0.7962962962962963 
+macro_f1_10 = 0.805205768826632 
+minloss 0.7047801958663124
+just saved the best current model in epoch9, with acc1:0.8072041430755622, and acc2:0.7956989247311826
+
+Epoch - 11 Train-Loss : 0.4561200577090093
+
+Epoch - 11 Valid-Loss : 0.7488338150438808
+micro_f1_11 = 0.7998805256869773 
+macro_f1_11 = 0.8117769594093079 
+minloss 0.7047801958663124
+just saved the best current model in epoch11, with acc1:0.8117769594093079, and acc2:0.7998805256869773
+
+Epoch - 12 Train-Loss : 0.42566838086013736
+
+Epoch - 12 Valid-Loss : 0.7169486800119991
+micro_f1_12 = 0.8040621266427718 
+macro_f1_12 = 0.8177199857375788 
+minloss 0.7047801958663124
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 13 Train-Loss : 0.39810557843854966
+
+Epoch - 13 Valid-Loss : 0.7411550604161762
+micro_f1_13 = 0.7807646356033453 
+macro_f1_13 = 0.7862787997657487 
+minloss 0.7047801958663124
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 14 Train-Loss : 0.3707713603807317
+
+Epoch - 14 Valid-Loss : 0.7034857156908229
+micro_f1_14 = 0.8034647550776584 
+macro_f1_14 = 0.8154968349389294 
+minloss 0.7034857156908229
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 15 Train-Loss : 0.3485741796483415
+
+Epoch - 15 Valid-Loss : 0.721459106817132
+micro_f1_15 = 0.8004778972520908 
+macro_f1_15 = 0.810553058042867 
+minloss 0.7034857156908229
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 16 Train-Loss : 0.32810059790674073
+
+Epoch - 16 Valid-Loss : 0.7821701034548737
+micro_f1_16 = 0.7891278375149343 
+macro_f1_16 = 0.803590974089101 
+minloss 0.7034857156908229
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 17 Train-Loss : 0.3076964783620961
+
+Epoch - 17 Valid-Loss : 0.6593280417046377
+micro_f1_17 = 0.8046594982078853 
+macro_f1_17 = 0.8158400011940167 
+minloss 0.6593280417046377
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 18 Train-Loss : 0.29069236285886385
+
+Epoch - 18 Valid-Loss : 0.7042560063657306
+micro_f1_18 = 0.8028673835125448 
+macro_f1_18 = 0.8099444673303022 
+minloss 0.6593280417046377
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 19 Train-Loss : 0.2739128797846302
+
+Epoch - 19 Valid-Loss : 0.6894470275512763
+micro_f1_19 = 0.7992831541218637 
+macro_f1_19 = 0.8130408837701152 
+minloss 0.6593280417046377
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 20 Train-Loss : 0.2574123502072049
+
+Epoch - 20 Valid-Loss : 0.6852747873181388
+micro_f1_20 = 0.7980884109916367 
+macro_f1_20 = 0.8105420168080686 
+minloss 0.6593280417046377
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 21 Train-Loss : 0.24054771936625968
+
+Epoch - 21 Valid-Loss : 0.7099680757593541
+micro_f1_21 = 0.8016726403823178 
+macro_f1_21 = 0.8155700083356532 
+minloss 0.6593280417046377
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 22 Train-Loss : 0.2301967808506862
+
+Epoch - 22 Valid-Loss : 0.697832054715781
+micro_f1_22 = 0.8016726403823178 
+macro_f1_22 = 0.8152774751124566 
+minloss 0.6593280417046377
+just saved the best current model in epoch12, with acc1:0.8177199857375788, and acc2:0.8040621266427718
+
+Epoch - 23 Train-Loss : 0.21519327175208078
+
+Epoch - 23 Valid-Loss : 0.7027038848648469
+micro_f1_23 = 0.8094384707287933 
+macro_f1_23 = 0.8217446146012328 
+minloss 0.6593280417046377
+just saved the best current model in epoch23, with acc1:0.8217446146012328, and acc2:0.8094384707287933
+
+Epoch - 24 Train-Loss : 0.20139751322907154
+
+Epoch - 24 Valid-Loss : 0.7711064203021427
+micro_f1_24 = 0.7861409796893668 
+macro_f1_24 = 0.8019873609160326 
+minloss 0.6593280417046377
+just saved the best current model in epoch23, with acc1:0.8217446146012328, and acc2:0.8094384707287933
+
+Epoch - 25 Train-Loss : 0.19208272342148341
+
+Epoch - 25 Valid-Loss : 0.717397122271359
+micro_f1_25 = 0.7992831541218637 
+macro_f1_25 = 0.815344060514121 
+minloss 0.6593280417046377
+just saved the best current model in epoch23, with acc1:0.8217446146012328, and acc2:0.8094384707287933
+
+Epoch - 26 Train-Loss : 0.18473696939764203
+
+Epoch - 26 Valid-Loss : 0.7408099874144509
+micro_f1_26 = 0.7939068100358423 
+macro_f1_26 = 0.8073098188420076 
+minloss 0.6593280417046377
+just saved the best current model in epoch23, with acc1:0.8217446146012328, and acc2:0.8094384707287933
+
+Epoch - 27 Train-Loss : 0.17517943437783975
+
+Epoch - 27 Valid-Loss : 0.6932220007337275
+micro_f1_27 = 0.8028673835125448 
+macro_f1_27 = 0.817501559777815 
+minloss 0.6593280417046377
+just saved the best current model in epoch23, with acc1:0.8217446146012328, and acc2:0.8094384707287933
+
+Epoch - 28 Train-Loss : 0.16336728288040034
+
+Epoch - 28 Valid-Loss : 0.6487931468036203
+micro_f1_28 = 0.8189964157706093 
+macro_f1_28 = 0.8327972914728043 
+minloss 0.6487931468036203
+just saved the best current model in epoch28, with acc1:0.8327972914728043, and acc2:0.8189964157706093
+
+Epoch - 29 Train-Loss : 0.15431551811999614
+
+Epoch - 29 Valid-Loss : 0.7148262514045374
+micro_f1_29 = 0.8166069295101553 
+macro_f1_29 = 0.8274786456874228 
+minloss 0.6487931468036203
+just saved the best current model in epoch28, with acc1:0.8327972914728043, and acc2:0.8189964157706093
+
+Epoch - 30 Train-Loss : 0.14844726227137062
+
+Epoch - 30 Valid-Loss : 0.7073227413309117
+micro_f1_30 = 0.7992831541218637 
+macro_f1_30 = 0.8115038860601166 
+minloss 0.6487931468036203
+just saved the best current model in epoch28, with acc1:0.8327972914728043, and acc2:0.8189964157706093
+
+Epoch - 31 Train-Loss : 0.1392151856579815
+
+Epoch - 31 Valid-Loss : 0.6697340684898553
+micro_f1_31 = 0.8213859020310632 
+macro_f1_31 = 0.8331719868368099 
+minloss 0.6487931468036203
+just saved the best current model in epoch31, with acc1:0.8331719868368099, and acc2:0.8213859020310632
+
+Epoch - 32 Train-Loss : 0.13162440377860327
+
+Epoch - 32 Valid-Loss : 0.6728063100860232
+micro_f1_32 = 0.8148148148148148 
+macro_f1_32 = 0.8248760912287386 
+minloss 0.6487931468036203
+just saved the best current model in epoch31, with acc1:0.8331719868368099, and acc2:0.8213859020310632
+
+Epoch - 33 Train-Loss : 0.12270156558831397
+
+Epoch - 33 Valid-Loss : 0.7161616214063196
+micro_f1_33 = 0.8267622461170848 
+macro_f1_33 = 0.837666387863716 
+minloss 0.6487931468036203
+just saved the best current model in epoch33, with acc1:0.837666387863716, and acc2:0.8267622461170848
+
+Epoch - 34 Train-Loss : 0.1221369552509076
+
+Epoch - 34 Valid-Loss : 0.7205108949648482
+micro_f1_34 = 0.8076463560334528 
+macro_f1_34 = 0.8223522671778756 
+minloss 0.6487931468036203
+training is terminating so as to prevent further overfitting
+just saved the best current model in epoch33, with acc1:0.837666387863716, and acc2:0.8267622461170848
+(3, 9)
+3
+params = 2659130
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+

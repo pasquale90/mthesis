@@ -1,0 +1,110 @@
+/mnt/scratch_a/users/m/melissap/melEnv/lib/python3.8/site-packages/torchvision/transforms/functional.py:92: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /opt/conda/conda-bld/pytorch_1603729061180/work/torch/csrc/utils/tensor_numpy.cpp:141.)
+  img = torch.from_numpy(np.array(pic, np.float32, copy=False))
+128
+csv containts 8732 rows and 8 columns.
+fold no_1 contains 873 audiofiles
+fold no_2 contains 888 audiofiles
+fold no_3 contains 925 audiofiles
+fold no_4 contains 990 audiofiles
+fold no_5 contains 936 audiofiles
+fold no_6 contains 823 audiofiles
+fold no_7 contains 838 audiofiles
+fold no_8 contains 806 audiofiles
+fold no_9 contains 816 audiofiles
+fold no_10 contains 837 audiofiles
+All in all there are 8732 audio files found in 8k Urban Sound dataset folders
+Index(['slice_file_name', 'fsID', 'start', 'end', 'salience', 'fold',
+       'classID', 'class'],
+      dtype='object')
+
+
+column <class> became... <Class>
+num_classes:  10
+sampling_rate: 44100, hop_length: 512, fft_points: 2048, mel_bands: 128
+Extracting features ........ 
+
+Feature Shape Check
+
+raw had len:4.0, and padded has len:5.0
+Spectogram has shape : (128, 431) with min:0 and max:255
+Features are extracted!
+ feature's len : 587, labels : 587, folders : 587
+device :  cuda:0
+train_folds:  [10]
+valid_fold:  [9]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_M2Dcnn2 initialized with total : 3338218 parameters.
+ learning_rate = 1e-05, epochs = 2
+ epochs = 2
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 2.3006991587187113
+
+Epoch - 1 Valid-Loss : 2.3021081372311243
+micro_f1_1 = 0.13898305084745763 
+macro_f1_1 = 0.056866496598639446 
+minloss 2.3021081372311243
+
+Epoch - 2 Train-Loss : 2.132545439820541
+
+Epoch - 2 Valid-Loss : 2.2745833145944694
+micro_f1_2 = 0.24067796610169492 
+macro_f1_2 = 0.12776010804003446 
+minloss 2.2745833145944694
+(3, 2)
+3
+params = 3338218
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
+train_folds:  [9]
+valid_fold:  [10]
+Loading_features......
+Loading_features......
+features are loaded
+batch_size: 16
+model_M2Dcnn2 initialized with total : 3338218 parameters.
+ learning_rate = 1e-05, epochs = 2
+ epochs = 2
+Experiment's attempt no_ : 1
+Train started..
+
+Epoch - 1 Train-Loss : 2.2482477614754126
+
+Epoch - 1 Valid-Loss : 2.301081418991089
+micro_f1_1 = 0.11986301369863013 
+macro_f1_1 = 0.04648122973962145 
+minloss 2.301081418991089
+
+Epoch - 2 Train-Loss : 2.1166055390709326
+
+Epoch - 2 Valid-Loss : 2.2732326482471668
+micro_f1_2 = 0.2054794520547945 
+macro_f1_2 = 0.11804290333612288 
+minloss 2.2732326482471668
+(3, 3)
+3
+params = 3338218
+Experiment's attempt changed to : 2
+
+
+.......................................................................................................
+
+
+
+
+.......................................................................................................
+
+
