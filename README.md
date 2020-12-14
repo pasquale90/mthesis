@@ -14,7 +14,7 @@
 In this thesis we compared the performance of multiple feature parameters for environmental sound classification problems by developing multiple evaluating models. Specifically, as audio representation of two different datasets, we used raw waveforms, log-mel spectrograms and short-time Fourier transforms. Finally we set four different experiments and each one of them was divided in two discrete audio representation modes. For their evaluation and also for comparability purposes we developed hybrid CNN models. Along with comparing each mode within each experiment, we also compared the performances achieved by using each different dataset through inspecting and examining the factors of structure, the technical features and various prospects of the initial data distribution, respectively for each dataset. The nature of this research additionally enabled us to seek for potential environmental class-conditional audio features.
 
 ### Download
-You can access the uploaded document in this [link](https://ikee.lib.auth.gr/record/325211)
+You can access the uploaded document in this [link](http://ikee.lib.auth.gr/record/325211/files/GRI-2020-29295.pdf)
 
 ### Contents
 
